@@ -102,11 +102,12 @@ img { display: block; max-width: 100%; }
 }
 
 .intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
-  gap: 3rem;
-  padding: clamp(3rem, 8vw, 7rem) 0 clamp(2.5rem, 6vw, 4.5rem);
-  align-items: end;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: clamp(2rem, 5vw, 3.5rem) 0 2rem;
+  align-items: center;
 }
 
 .eyebrow {
@@ -123,7 +124,7 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 h1 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(2.7rem, 7vw, 6.2rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: .95;
   letter-spacing: -.065em;
 }
@@ -138,7 +139,7 @@ h1 {
   display: flex;
   align-items: baseline;
   gap: .65rem;
-  margin-top: 1.6rem;
+  margin-top: 0;
   color: var(--muted);
 }
 
@@ -410,7 +411,7 @@ h1 {
 @media (max-width: 520px) {
   .site-header { min-height: 74px; }
   .header-note { display: none; }
-  h1 { font-size: clamp(2.65rem, 16vw, 4.4rem); }
+  h1 { font-size: clamp(2rem, 8vw, 3rem); }
   .project-card { min-height: 390px; border-radius: 20px; }
   .fortuna .project-media, .fantasma .project-media { padding: 2.4rem 2.4rem 8rem; }
   .site-footer { flex-direction: column; }
