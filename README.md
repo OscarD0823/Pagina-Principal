@@ -1,6 +1,6 @@
 # Proyectos de Oscar
 
-Portada animada para los cuatro proyectos de OscarD0823.
+Portada animada para los cinco proyectos de OscarD0823.
 
 | Proyecto | Destino |
 | --- | --- |
@@ -8,6 +8,7 @@ Portada animada para los cuatro proyectos de OscarD0823.
 | Caja Fantasma | https://oscard0823.github.io/Caja-Fantasma/ |
 | SnowRunner Studio | https://github.com/OscarD0823/snowrunner |
 | RoadCraft Studio | https://github.com/OscarD0823/roadcraft |
+| Lankdea | https://github.com/OscarD0823/Lankdea-APK |
 
 Los archivos públicos están en `dist/`. Es una página estática sin dependencias.
 

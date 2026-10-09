@@ -1,6 +1,6 @@
 # Ilustraciones de la portada
 
-Creadas con la herramienta integrada de ImageGen. Son ilustraciones conceptuales originales, no modelos oficiales de los juegos. El emblema de Fortuna Real procede de su proyecto original y conserva sus formas.
+Las ilustraciones de SnowRunner Studio, RoadCraft Studio y Caja Fantasma se crearon con la herramienta integrada de ImageGen. Son ilustraciones conceptuales originales, no modelos oficiales de los juegos. El emblema de Fortuna Real y el cofre de Lankdea proceden de sus proyectos originales y conservan sus formas.
 
 ## Archivos finales
 
@@ -8,7 +8,9 @@ Creadas con la herramienta integrada de ImageGen. Son ilustraciones conceptuales
 - [Maquinaria de RoadCraft Studio](dist/assets/road-machine.webp)
 - [Caja de recompensas](dist/assets/phantom-crate.webp)
 
-Los originales PNG están en `D:/Pagina Principal/project-art/`. La portada usa copias WebP optimizadas, con transparencia, que en conjunto pesan aproximadamente 580 KB.
+Los originales PNG están en `D:/Pagina Principal/project-art/`. Las tres ilustraciones generadas usan copias WebP optimizadas, con transparencia, que en conjunto pesan aproximadamente 580 KB.
+
+El archivo `dist/assets/lankdea-cofre.webp` es una copia WebP optimizada (212 KB) del [atlas original de Lankdea](https://github.com/OscarD0823/Lankdea-APK/blob/main/1-programa/assets/cofre_atlas_gothic.png), publicado bajo la licencia MIT del proyecto, conservada en `dist/assets/lankdea-LICENSE.txt`. Contiene los estados cerrado y abierto; CSS muestra un fotograma a la vez sin alterar la ilustración.
 
 ## Prompts
 
