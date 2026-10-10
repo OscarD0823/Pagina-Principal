@@ -3,19 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fortuna Real, Caja Fantasma, SnowRunner Studio, RoadCraft Studio y Lankdea. Los proyectos de Oscar, sus páginas y repositorios.">
-  <meta name="theme-color" content="#080a0e">
+  <meta name="description" content="Explora Fortuna Real, Caja Fantasma, Prisma PDF, SnowRunner Studio, RoadCraft Studio y Lankdea. Aplicaciones y herramientas de OscarD0823.">
+  <meta name="theme-color" content="#090c12">
   <title>Proyectos de Oscar</title>
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./animations.js" defer></script>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20261009-2">
+  <link rel="stylesheet" href="./styles.css?v=20261009-2">
+  <script src="./animations.js?v=20261009-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#proyectos">Ir a los proyectos</a>
   <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-grid" aria-hidden="true"></div>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="grid-icon" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></symbol>
+    <symbol id="app-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
+    <symbol id="code-icon" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></symbol>
+  </defs></svg>
   <header class="site-header shell">
-    <a class="brand" href="./" aria-label="Inicio — Proyectos de Oscar"><span class="brand-mark" aria-hidden="true">OD<span></span></span><span>Proyectos de <strong>Oscar</strong></span></a>
+    <a class="brand" href="./" aria-label="Inicio — Proyectos de Oscar"><img class="brand-mark" src="./favicon.svg?v=20261009-2" width="48" height="48" alt=""><span>Proyectos de <strong>Oscar</strong></span></a>
     <div class="header-actions">
+      <a class="collection-link" href="#proyectos">Colección</a>
       <button class="motion-control" id="motion-control" type="button" aria-label="Pausar animaciones" aria-pressed="false">
         <svg class="pause-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
         <svg class="play-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m8 5 11 7-11 7Z" fill="currentColor"/></svg>
@@ -29,9 +37,20 @@
   </header>
 
   <main class="shell">
-    <section class="intro" aria-labelledby="titulo-principal"><h1 id="titulo-principal">Proyectos<span class="title-dot" aria-hidden="true">.</span></h1><span class="collection-count"><span class="count-line" aria-hidden="true"></span>01 — 05</span></section>
+    <section class="intro" aria-labelledby="titulo-principal">
+      <div><span class="intro-eyebrow">OSCARD0823 / PORTFOLIO</span><h1 id="titulo-principal">Proyectos<span class="title-dot" aria-hidden="true">.</span></h1></div>
+      <div class="collection-count" aria-label="6 proyectos"><span class="count-line" aria-hidden="true"></span><span class="count-value">06</span><span class="count-caption">PROYECTOS</span></div>
+    </section>
+    <div class="collection-toolbar">
+      <div class="project-filters" role="group" aria-label="Filtrar proyectos" hidden>
+        <button class="filter-button" type="button" data-filter="all" aria-pressed="true"><svg aria-hidden="true"><use href="#grid-icon"/></svg>Todos<span>6</span></button>
+        <button class="filter-button" type="button" data-filter="apps" aria-pressed="false"><svg aria-hidden="true"><use href="#app-icon"/></svg>Aplicaciones<span>4</span></button>
+        <button class="filter-button" type="button" data-filter="modding" aria-pressed="false"><svg aria-hidden="true"><use href="#code-icon"/></svg>Modding<span>2</span></button>
+      </div>
+      <span class="collection-label">COLECCIÓN</span><output id="results-count" aria-live="polite" aria-atomic="true">6 proyectos</output>
+    </div>
     <section id="proyectos" class="project-grid" aria-label="Proyectos disponibles">
-      <article class="project-card fortuna" data-project="fortuna">
+      <article class="project-card fortuna" data-project="fortuna" data-category="apps">
         <div class="card-scene fortune-scene" aria-hidden="true">
           <div class="scene-caption"><span class="project-number">01</span><span>SORTEOS</span></div>
           <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div><div class="fortune-halo"></div>
@@ -45,12 +64,12 @@
           <div class="fortune-pointer"></div><div class="scene-particles gold-particles"></div><div class="scene-label">RULETA · CARTAS · CANICAS</div>
         </div>
         <div class="card-content">
-          <div class="title-row"><h2>Fortuna Real</h2><span class="version">v1.0.13</span></div>
+          <div class="title-row"><h2>Fortuna Real</h2></div>
           <p>Sorteos con ruleta, cartas, canicas y Patos Retro.</p>
-          <div class="card-bottom"><span class="platform">WEB + WINDOWS</span><a class="project-link" href="https://oscard0823.github.io/Fortuna-Real/" target="_blank" rel="noopener noreferrer" aria-label="Abrir la página de Fortuna Real">Abrir página</a></div>
+          <div class="card-bottom"><span class="platform">WEB + WINDOWS</span><a class="project-link" href="https://oscard0823.github.io/Fortuna-Real/" target="_blank" rel="noopener noreferrer" aria-label="Abrir la página de Fortuna Real">Abrir página<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
-      <article class="project-card fantasma" data-project="fantasma">
+      <article class="project-card fantasma" data-project="fantasma" data-category="apps">
         <div class="card-scene phantom-scene" aria-hidden="true">
           <div class="scene-caption"><span class="project-number">02</span><span>ONCE HUMAN</span></div>
           <div class="phantom-grid"></div><div class="crate-glow"></div><div class="loot-ring"></div>
@@ -58,54 +77,77 @@
           <div class="scene-particles cyan-particles"></div><div class="scan-line"></div><div class="scene-label">CAJAS · RECOMPENSAS · BRILLANTES</div>
         </div>
         <div class="card-content">
-          <div class="title-row"><h2>Caja Fantasma</h2><span class="version">v1.21.4</span></div>
+          <div class="title-row"><h2>Caja Fantasma</h2></div>
           <p>Tus recompensas y módulos Brillantes de Once Human, organizados.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/Caja-Fantasma/" target="_blank" rel="noopener noreferrer" aria-label="Abrir la página de Caja Fantasma">Abrir página</a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/Caja-Fantasma/" target="_blank" rel="noopener noreferrer" aria-label="Abrir la página de Caja Fantasma">Abrir página<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
-      <article class="project-card snow" data-project="snow">
+      <article class="project-card prisma" data-project="prisma" data-category="apps">
+        <div class="card-scene pdf-scene" aria-hidden="true">
+          <div class="scene-caption"><span class="project-number">03</span><span>DOCUMENTOS</span></div>
+          <div class="pdf-halo"></div><div class="pdf-orbit"></div>
+          <div class="pdf-document">
+            <div class="pdf-paper pdf-paper-back"></div><div class="pdf-paper pdf-paper-middle"></div>
+            <div class="pdf-paper pdf-paper-front">
+              <div class="paper-heading"><svg class="prism-symbol" viewBox="0 0 64 64"><path d="m32 5 25 43-25 12L7 48Z" fill="#bb9cff"/><path d="m32 5 0 33 25 10Z" fill="#78d8ee"/><path d="m7 48 25-10 25 10-25 12Z" fill="#e7b6cf"/><path d="m32 5 0 33 25 10M7 48l25-10v22" fill="none" stroke="#fff" stroke-opacity=".6"/></svg><span>PRISMA <b>PDF</b></span></div>
+              <div class="paper-rule"></div><div class="paper-text paper-text-title"></div><div class="paper-text"></div><div class="paper-text paper-text-short"></div>
+              <div class="paper-selection"><span></span><i></i><i></i><i></i><i></i></div>
+              <div class="paper-text"></div><div class="paper-text paper-text-short"></div><div class="paper-signature"><svg viewBox="0 0 110 35"><path d="M7 25C37-9 46-7 30 16S5 40 30 25 56 7 52 22 65 11 69 23 82 18 100 22M21 29l67-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            </div>
+          </div>
+          <div class="pdf-tools"><span class="pdf-tool-type">T</span><span><svg viewBox="0 0 20 20"><path d="m4 13 7-8 4 4-8 7H4Zm6-7 4 4M3 18h14"/></svg></span><span><svg viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="2"/><circle cx="7" cy="7" r="1"/><path d="m4 15 5-5 3 3 2-2 3 4"/></svg></span></div>
+          <div class="pdf-cursor"><svg viewBox="0 0 24 24"><path d="m5 3 14 11-7 1-3 6Z" fill="#d7baff" stroke="#2a2048" stroke-width="1.5"/></svg></div>
+          <div class="scene-particles"></div><div class="scene-label">EDICIÓN LOCAL · TEXTO · FIRMAS</div>
+        </div>
+        <div class="card-content">
+          <div class="title-row"><h2>Prisma <span>PDF</span></h2></div>
+          <p>Edita texto, organiza páginas y firma PDF. Tus documentos se quedan en tu dispositivo.</p>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-pdf/" target="_blank" rel="noopener noreferrer" aria-label="Abrir el editor Prisma PDF">Abrir editor<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+        </div>
+      </article>
+      <article class="project-card snow" data-project="snow" data-category="modding">
         <div class="card-scene snow-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">03</span><span>SNOWRUNNER</span></div>
+          <div class="scene-caption"><span class="project-number">04</span><span>SNOWRUNNER</span></div>
           <div class="terrain-grid"></div><div class="truck-glow"></div>
           <img class="scene-object truck-object" src="./assets/snow-truck.webp" alt="" width="1024" height="683" loading="lazy">
           <div class="snowfall"></div><div class="moving-tracks"></div>
           <div class="technical-marker marker-one"><i></i><span>VEHÍCULOS</span></div><div class="technical-marker marker-two"><i></i><span>COMPONENTES</span></div><div class="scene-label">VEHÍCULOS · REMOLQUES · XML</div>
         </div>
         <div class="card-content">
-          <div class="title-row"><h2>SnowRunner <span>Studio</span></h2><span class="version">v2.6.0</span></div>
+          <div class="title-row"><h2>SnowRunner <span>Studio</span></h2></div>
           <p>Editor visual de vehículos, remolques y componentes de SnowRunner.</p>
-          <div class="card-bottom"><span class="platform">WINDOWS · EDITOR</span><a class="project-link" href="https://github.com/OscarD0823/snowrunner" target="_blank" rel="noopener noreferrer" aria-label="Abrir SnowRunner Studio en GitHub">Ver en GitHub</a></div>
+          <div class="card-bottom"><span class="platform">WINDOWS · EDITOR</span><a class="project-link" href="https://github.com/OscarD0823/snowrunner" target="_blank" rel="noopener noreferrer" aria-label="Abrir SnowRunner Studio en GitHub">Ver en GitHub<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
-      <article class="project-card road" data-project="road">
+      <article class="project-card road" data-project="road" data-category="modding">
         <div class="card-scene road-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">04</span><span>ROADCRAFT</span></div>
+          <div class="scene-caption"><span class="project-number">05</span><span>ROADCRAFT</span></div>
           <div class="blueprint-grid"></div><div class="machine-glow"></div>
           <img class="scene-object machine-object" src="./assets/road-machine.webp" alt="" width="1024" height="683" loading="lazy">
           <div class="blueprint-scan"></div><div class="work-lines"></div>
           <div class="technical-marker marker-one"><i></i><span>MODDING</span></div><div class="technical-marker marker-two"><i></i><span>LOGÍSTICA</span></div><div class="scene-label">VEHÍCULOS · CONVOYES · PARTIDAS</div>
         </div>
         <div class="card-content">
-          <div class="title-row"><h2>RoadCraft <span>Studio</span></h2><span class="version">v0.9.0</span></div>
+          <div class="title-row"><h2>RoadCraft <span>Studio</span></h2></div>
           <p>Edición de vehículos, convoyes logísticos y partidas de RoadCraft.</p>
-          <div class="card-bottom"><span class="platform">WINDOWS · EDITOR</span><a class="project-link" href="https://github.com/OscarD0823/roadcraft" target="_blank" rel="noopener noreferrer" aria-label="Abrir RoadCraft Studio en GitHub">Ver en GitHub</a></div>
+          <div class="card-bottom"><span class="platform">WINDOWS · EDITOR</span><a class="project-link" href="https://github.com/OscarD0823/roadcraft" target="_blank" rel="noopener noreferrer" aria-label="Abrir RoadCraft Studio en GitHub">Ver en GitHub<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
-      <article class="project-card lankdea" data-project="lankdea">
+      <article class="project-card lankdea" data-project="lankdea" data-category="apps">
         <div class="card-scene vault-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">05</span><span>COFRE PERSONAL</span></div>
+          <div class="scene-caption"><span class="project-number">06</span><span>COFRE PERSONAL</span></div>
           <div class="vault-halo"></div><div class="orbit vault-orbit"></div><div class="vault-floor"></div>
           <div class="vault-object"><img class="vault-atlas" src="./assets/lankdea-cofre.webp" alt="" width="1024" height="512"></div>
           <div class="scene-particles"></div><div class="scene-label">CONTRASEÑAS · NOTAS · ARCHIVOS</div>
         </div>
         <div class="card-content">
-          <div class="title-row"><h2>Lankdea</h2><span class="version">v3.6.0</span></div>
-          <p>Cofre cifrado para contraseñas, notas y archivos. Sincronización local entre Windows y Android, sin nube.</p>
-          <div class="card-bottom"><span class="platform">WINDOWS + ANDROID</span><a class="project-link" href="https://github.com/OscarD0823/Lankdea-APK" target="_blank" rel="noopener noreferrer" aria-label="Abrir Lankdea en GitHub">Ver en GitHub</a></div>
+          <div class="title-row"><h2>Lankdea</h2></div>
+          <p>Cofre cifrado para contraseñas, notas y archivos. Sincroniza tus dispositivos sin nube.</p>
+          <div class="card-bottom"><span class="platform">WINDOWS + ANDROID</span><a class="project-link" href="https://github.com/OscarD0823/Lankdea-APK" target="_blank" rel="noopener noreferrer" aria-label="Abrir Lankdea en GitHub">Ver en GitHub<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
     </section>
-    <footer class="site-footer"><span>Creado por <a href="https://github.com/OscarD0823" target="_blank" rel="noopener noreferrer">OscarD0823</a></span><a href="#titulo-principal">Volver al inicio</a></footer>
+    <footer class="site-footer"><span>© 2026 <a href="https://github.com/OscarD0823" target="_blank" rel="noopener noreferrer">OscarD0823</a></span><a href="#titulo-principal">Volver al inicio<span aria-hidden="true">↑</span></a></footer>
   </main>
 </body>
 </html>

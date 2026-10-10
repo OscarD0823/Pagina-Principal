@@ -12,6 +12,12 @@ Los originales PNG están en `D:/Pagina Principal/project-art/`. Las tres ilustr
 
 El archivo `dist/assets/lankdea-cofre.webp` es una copia WebP optimizada (212 KB) del [atlas original de Lankdea](https://github.com/OscarD0823/Lankdea-APK/blob/main/1-programa/assets/cofre_atlas_gothic.png), publicado bajo la licencia MIT del proyecto, conservada en `dist/assets/lankdea-LICENSE.txt`. Contiene los estados cerrado y abierto; CSS muestra un fotograma a la vez sin alterar la ilustración.
 
+## Identidad y documentos
+
+El nuevo monograma OD de `dist/favicon.svg` es un dibujo vectorial creado para esta portada; se reutiliza como logo del encabezado y favicon. No añade dependencias ni imágenes grandes.
+
+La escena de Prisma PDF se construye con HTML, CSS y SVG propios: hojas apiladas, selección de texto, cursor y firma animada. Es una representación ilustrativa de sus funciones, no un editor integrado ni una copia de la interfaz o del logo de la aplicación. Su nombre y destino se verificaron en el chat «Crear editor de PDF con logo e UI» y el repositorio público `OscarD0823/prisma-pdf`.
+
 ## Prompts
 
 Dirección compartida: original polished cinematic semi-realistic 3D illustration, readable silhouette, centered full object, three-quarter perspective, transparent alpha, no landscape, ground, text, logos or watermark.
