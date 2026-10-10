@@ -34,3 +34,15 @@ Los filtros se activan con JavaScript. Sin JavaScript, todos los proyectos y enl
 Para añadir otra herramienta de documentos, usa `data-category="documentos"` en su tarjeta. Para herramientas personales como Lankdea, usa `utilidades`; para sorteos, `sorteos`. Los contadores de los filtros se calculan automáticamente a partir de las tarjetas. No se muestran tarjetas ficticias para futuros proyectos.
 
 Las tarjetas no muestran versiones de los programas para evitar mantenimiento con cada lanzamiento. Sus enlaces apuntan a las páginas o repositorios de cada proyecto.
+
+## Instalar como aplicación
+
+La portada es una PWA: tiene manifiesto, iconos propios y se abre en una ventana independiente al instalarla desde un navegador compatible. El botón **Instalar** usa la confirmación nativa del navegador cuando está disponible; en otro caso muestra una guía para computador, Android y Safari en iPhone/iPad. No se instala nada automáticamente. El botón se oculta al abrir la app instalada.
+
+En Chrome o Edge, abre https://oscard0823.github.io/Pagina-Principal/ y pulsa **Instalar**, o busca la opción de instalación en el navegador. En Safari para iPhone/iPad, usa **Compartir → Añadir a pantalla de inicio** y activa **Abrir como app web** si aparece.
+
+Tras la primera carga completa, el service worker guarda la portada, sus estilos, scripts, iconos e ilustraciones para poder abrirla sin conexión. Los destinos de los proyectos son sitios independientes y pueden seguir necesitando Internet. El guardado funciona con HTTPS o localhost; no al abrir `index.html` directamente como archivo.
+
+El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-Principal/`). Solo intercepta la portada y una lista explícita de sus recursos; no guarda ni modifica las páginas de los otros proyectos. Al actualizarse, solo elimina sus propias cachés antiguas. Con conexión se consulta la red primero para recibir los cambios publicados, sin mantener versiones visibles en las tarjetas.
+
+Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).

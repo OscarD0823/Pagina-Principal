@@ -16,6 +16,8 @@ El archivo `dist/assets/lankdea-cofre.webp` es una copia WebP optimizada (212 KB
 
 El nuevo monograma OD de `dist/favicon.svg` es un dibujo vectorial creado para esta portada; se reutiliza como logo del encabezado y favicon. No añade dependencias ni imágenes grandes.
 
+Los PNG de `dist/icons/` son exportaciones del mismo SVG para la aplicación instalable: tamaños de 192 y 512 px, un icono Apple de 180 px y una variante adaptable de 512 px con margen de seguridad para recortes del sistema. No se utilizan logos distintos ni imágenes externas para la instalación.
+
 La escena de Prisma PDF se construye con HTML, CSS y SVG propios: hojas apiladas, selección de texto, cursor y firma animada. Es una representación ilustrativa de sus funciones, no un editor integrado ni una copia de la interfaz o del logo de la aplicación. Su nombre y destino se verificaron en el chat «Crear editor de PDF con logo e UI» y el repositorio público `OscarD0823/prisma-pdf`.
 
 ## Prompts

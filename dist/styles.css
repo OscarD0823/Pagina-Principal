@@ -30,16 +30,19 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 /* Identity and collection navigation. */
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 106px; border-bottom: 1px solid var(--line); }
-.brand { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; font-size: 1.05rem; letter-spacing: -.035em; }
-.brand-mark { width: 48px; height: 48px; filter: drop-shadow(0 8px 14px #0005); transition: transform .25s ease; }
+.brand { display: inline-flex; align-items: center; gap: 14px; min-width: 0; text-decoration: none; font-size: 1.05rem; letter-spacing: -.035em; }
+.brand-mark { width: 48px; height: 48px; flex-shrink: 0; filter: drop-shadow(0 8px 14px #0005); transition: transform .25s ease; }
 .brand:hover .brand-mark { transform: rotate(-7deg); }
 .brand > span { color: #aab6c8; }
 .brand strong { color: var(--text); font-weight: 700; }
-.header-actions { display: flex; align-items: center; gap: 18px; }
+.header-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 18px; }
 .collection-link { padding: 10px 5px; color: #abb6c7; font-size: .875rem; text-decoration: none; }
 .collection-link:hover { color: white; }
 .github-link { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 44px; padding: 10px 16px; border: 1px solid #394352; border-radius: 12px; background: #151c27; text-decoration: none; font-size: .8125rem; font-weight: 600; transition: border-color .2s, background .2s; }
 .github-link:hover { border-color: #728096; background: #202a39; }
+.install-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; border: 1px solid #80604a; border-radius: 12px; background: #30251e; color: #ffdfc8; font-size: .8125rem; font-weight: 600; cursor: pointer; transition: border-color .2s, background .2s; }
+.install-button:hover { border-color: #d79f78; background: #443025; }
+.install-button:disabled { cursor: wait; opacity: .6; }
 .motion-control { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 12px; border: 1px solid transparent; border-radius: 12px; background: transparent; color: #b5bfce; font-size: .8125rem; cursor: pointer; }
 .motion-control:hover { color: white; border-color: var(--line); background: #151c27; }
 .motion-control:disabled { cursor: default; color: #9da9bb; }
@@ -65,6 +68,23 @@ h1 { margin: 0; font-size: clamp(3rem, 5.8vw, 5.4rem); font-weight: 650; line-he
 .collection-label { color: #9aa7bb; font: .6875rem ui-monospace, "Cascadia Code", monospace; letter-spacing: .12em; }
 .project-filters:not([hidden]) + .collection-label { display: none; }
 #results-count { color: #96a3b7; font-size: .8125rem; }
+
+/* Installation help only appears after a deliberate click. */
+.install-dialog { width: min(500px, calc(100% - 32px)); max-height: calc(100dvh - 32px); padding: 28px; border: 1px solid #435065; border-radius: 24px; background: #121823; color: var(--text); box-shadow: 0 24px 100px #0009; }
+.install-dialog::backdrop { background: #050810c9; backdrop-filter: blur(8px); }
+.install-dialog-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+.dialog-close { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--line); border-radius: 12px; background: #1b2432; color: #b9c5d8; cursor: pointer; }
+.dialog-close:hover { color: white; background: #293548; }
+.install-dialog h2 { margin: 0; font-size: 1.6rem; line-height: 1.25; letter-spacing: -.035em; }
+.install-dialog p { margin: 10px 0 0; font-size: .875rem; color: #abb8cc; }
+.install-steps { display: grid; gap: 16px; margin-top: 24px; }
+.install-steps section { padding-left: 15px; border-left: 2px solid #80604a; }
+.install-steps h3 { margin: 0; font-size: .875rem; font-weight: 650; }
+.install-steps p { margin-top: 4px; }
+.install-steps strong { font-weight: 600; color: #dfe6f0; }
+.install-dialog .install-note { margin-top: 24px; font-size: .75rem; line-height: 1.6; color: #9ba9be; }
+.install-confirm { width: 100%; min-height: 44px; margin-top: 24px; padding: 10px 16px; border: 1px solid #80604a; border-radius: 12px; background: #30251e; color: #ffdfc8; font-size: .875rem; font-weight: 600; cursor: pointer; }
+.install-confirm:hover { background: #443025; }
 
 /* A compact gallery with consistent content and clearly marked destinations. */
 .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
@@ -211,8 +231,8 @@ h2 span { color: #bdc8d8; font-weight: 400; }
   .brand { font-size: .9375rem; gap: 10px; }
   .brand-mark { width: 40px; height: 40px; }
   .header-actions { gap: 6px; }
-  .collection-link, .github-link span { display: none; }
-  .motion-control, .github-link { padding: 10px; min-width: 42px; }
+  .collection-link, .github-link span, .install-button span { display: none; }
+  .motion-control, .github-link, .install-button { padding: 10px; min-width: 42px; }
   .motion-control { border-color: var(--line); }
   .intro { padding: 34px 0 24px; gap: 16px; }
   .intro-eyebrow { font-size: .625rem; letter-spacing: .12em; }
@@ -230,12 +250,13 @@ h2 span { color: #bdc8d8; font-weight: 400; }
   .card-content { padding: 23px; }
   .card-content p { min-height: 0; }
   .site-footer { margin-top: 34px; }
+  .install-dialog { padding: 24px; border-radius: 20px; }
 }
 @media (max-width: 390px) {
   .brand { font-size: .8125rem; gap: 8px; }
   .brand-mark { width: 36px; height: 36px; }
   .header-actions { gap: 4px; }
-  .motion-control, .github-link { min-width: 38px; padding: 8px; }
+  .motion-control, .github-link, .install-button { min-width: 38px; padding: 8px; }
   .filter-button { padding-inline: 8px; gap: 5px; }
   .filter-button svg { width: 14px; height: 14px; }
   .card-content { padding: 20px; }
