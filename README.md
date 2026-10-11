@@ -48,3 +48,5 @@ Tras la primera carga completa, el service worker guarda la portada, sus estilos
 El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-Principal/`). Solo intercepta la portada y una lista explícita de sus recursos; no guarda ni modifica las páginas de los otros proyectos. Al actualizarse, solo elimina sus propias cachés antiguas. Con conexión se consulta la red primero para recibir los cambios publicados, sin mantener versiones visibles en las tarjetas.
 
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
+
+Prisma y las cinco aplicaciones adicionales se enlazan por separado desde Documentos. Prisma PDF conserva su tarjeta y ruta; Prisma abre la aplicación general en /prisma/. Cada enlace web permanece en la misma pestaña.
