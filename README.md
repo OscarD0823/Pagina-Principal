@@ -35,6 +35,8 @@ Para añadir otra herramienta de documentos, usa `data-category="documentos"` en
 
 Las tarjetas no muestran versiones de los programas para evitar mantenimiento con cada lanzamiento. Sus enlaces apuntan a las páginas o repositorios de cada proyecto.
 
+Fortuna Real, Caja Fantasma y Prisma PDF abren sus páginas en la misma pestaña. Los enlaces a los repositorios de SnowRunner Studio, RoadCraft Studio y Lankdea siguen abriendo GitHub en otra pestaña.
+
 ## Instalar como aplicación
 
 La portada es una PWA: tiene manifiesto, iconos propios y se abre en una ventana independiente al instalarla desde un navegador compatible. El botón **Instalar** usa la confirmación nativa del navegador cuando está disponible; en otro caso muestra una guía para computador, Android y Safari en iPhone/iPad. No se instala nada automáticamente. El botón se oculta al abrir la app instalada.
