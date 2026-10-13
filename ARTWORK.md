@@ -20,6 +20,8 @@ Los PNG de `dist/icons/` son exportaciones del mismo SVG para la aplicación ins
 
 La escena de Prisma PDF se construye con HTML, CSS y SVG propios: hojas apiladas, selección de texto, cursor y firma animada. Es una representación ilustrativa de sus funciones, no un editor integrado ni una copia de la interfaz o del logo de la aplicación. Su nombre y destino se verificaron en el chat «Crear editor de PDF con logo e UI» y el repositorio público `OscarD0823/prisma-pdf`.
 
+Las demás tarjetas Prisma siguen esa misma dirección visual, con escenas vectoriales distintas: una biblioteca conectada a los seis editores, escritura progresiva en Writer, selección y suma en Sheets, tres composiciones de diapositivas en Slides, tablas relacionadas y consulta en Data, y una publicación con guías de maquetación en Publisher. Son demostraciones ilustrativas, no documentos reales ni aplicaciones incrustadas. Reutilizan los seis logos SVG existentes sin modificar sus archivos. Las animaciones son CSS, no videos ni imágenes nuevas, y respetan los controles globales de pausa, visibilidad y movimiento reducido.
+
 ## Prompts
 
 Dirección compartida: original polished cinematic semi-realistic 3D illustration, readable silhouette, centered full object, three-quarter perspective, transparent alpha, no landscape, ground, text, logos or watermark.

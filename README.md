@@ -50,3 +50,5 @@ El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-P
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
 
 Prisma y las cinco aplicaciones adicionales se enlazan por separado desde Documentos. Prisma PDF conserva su tarjeta y ruta; Prisma abre la aplicación general en /prisma/. Cada enlace web permanece en la misma pestaña.
+
+Cada tarjeta de la familia Prisma tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
