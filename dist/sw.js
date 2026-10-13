@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261013-prisma-motion`;
+const cacheName = `${cachePrefix}20261013-prisma-icons`;
 const assetPaths = [
   'index.html',
   'styles.css',
@@ -16,7 +16,7 @@ const assetPaths = [
   'assets/snow-truck.webp',
   'assets/road-machine.webp',
   'assets/lankdea-cofre.webp',
-  'assets/prisma-logo.svg', 'assets/writer-logo.svg', 'assets/sheets-logo.svg',
+  'assets/pdf-logo.svg', 'assets/prisma-logo.svg', 'assets/writer-logo.svg', 'assets/sheets-logo.svg',
   'assets/slides-logo.svg', 'assets/data-logo.svg', 'assets/publisher-logo.svg'
 ];
 const assetURLs = assetPaths.map((path) => new URL(path, scopeURL).href);

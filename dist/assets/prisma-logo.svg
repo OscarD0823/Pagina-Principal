@@ -1,10 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Prisma">
- <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#393052"/><stop offset="1" stop-color="#1e1b34"/></linearGradient><linearGradient id="light" x2="1" y2="1"><stop stop-color="#e9e1ff"/><stop offset="1" stop-color="#9b82ed"/></linearGradient><linearGradient id="purple" x2="1" y2="1"><stop stop-color="#c3a3fd"/><stop offset="1" stop-color="#7c62d7"/></linearGradient></defs>
- <rect x="4" y="4" width="248" height="248" rx="57" fill="url(#bg)"/>
- <path d="M66 66h64l57 44-57 46H98v39H66z" fill="url(#light)"/>
- <path d="m130 66 57 44-57 46V66z" fill="url(#purple)"/>
- <path d="M98 96h32l19 14-19 16H98z" fill="#342945"/>
- <path d="m66 66 32 30v99H66z" fill="#b8baf5"/>
- <path d="m98 156 32-30v30z" fill="#9de3d3"/>
- <path d="m130 66 57 44-57-14z" fill="#f1c38d"/>
+  <defs>
+    <linearGradient id="tile" x1="25" y1="17" x2="228" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#363954"/><stop offset=".53" stop-color="#20233e"/><stop offset="1" stop-color="#13162d"/></linearGradient>
+    <linearGradient id="paper" x1="76" y1="51" x2="184" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7ecfa"/></linearGradient>
+    <linearGradient id="fold" x1="143" y1="48" x2="185" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#e6d4ff"/><stop offset="1" stop-color="#c5aeff"/></linearGradient>
+    <linearGradient id="accent" x1="80" y1="95" x2="188" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#c5aeff"/><stop offset="1" stop-color="#7958de"/></linearGradient>
+    <linearGradient id="light" x1="105" y1="75" x2="189" y2="178" gradientUnits="userSpaceOnUse"><stop stop-color="#e6d4ff"/><stop offset="1" stop-color="#c5aeff"/></linearGradient>
+    <linearGradient id="deep" x1="104" y1="97" x2="191" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#7958de"/><stop offset="1" stop-color="#20233e"/></linearGradient>
+    <radialGradient id="glow" cx="73" cy="53" r="193" gradientUnits="userSpaceOnUse"><stop stop-color="#c5aeff" stop-opacity=".22"/><stop offset="1" stop-color="#c5aeff" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-35%" y="-25%" width="180%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#060b20" flood-opacity=".28"/></filter>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="59" fill="url(#tile)"/>
+  <rect x="5" y="5" width="246" height="246" rx="58" fill="url(#glow)" stroke="#e6d4ff" stroke-opacity=".19" stroke-width="1.5"/>
+  <g filter="url(#shadow)"><path d="m128 43 76 44v88l-76 44-76-44V87Z" fill="url(#accent)"/>
+    <path d="m128 43 76 44-76 44-76-44Z" fill="url(#light)"/>
+    <path d="M128 131v88l76-44V87Z" fill="url(#deep)"/>
+    <path d="m52 87 76 44-41 22-35-22Z" fill="#a894eb"/>
+    <path d="m128 43 0 88 76-44M52 87l76 44v88" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/>
+    <path d="m135 51 54 31" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M91 174v-68h33c21 0 33 10 33 28s-12 28-33 28h-14v12Zm19-29h12c11 0 16-4 16-11s-5-11-16-11h-12Z" fill="url(#paper)"/>
+    <path d="m128 43 0 23 42 24 21-8Z" fill="#b5eafa" opacity=".75"/>
+    <path d="m52 175 35-22 41 24v42Z" fill="#e6a9d1" opacity=".4"/></g>
+  <path d="m211 51 2 8 8 2-8 2-2 8-2-8-8-2 8-2Z" fill="#e6d4ff"/>
 </svg>

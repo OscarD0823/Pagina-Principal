@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#e96981"/><stop offset="1" stop-color="#813d68"/></linearGradient></defs><rect x="24" y="24" width="464" height="464" rx="118" fill="#fcedf1"/><path d="m256 76 160 93v174l-160 93-160-93V169Z" fill="url(#a)"/><path d="m256 76 160 93-160 91-160-91Z" fill="#f79aae"/><path d="M256 260v176l160-93V169Z" fill="#9c496f"/><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round"><ellipse cx="256" cy="203" rx="83" ry="30"/><path d="M173 203v108c0 17 37 31 83 31s83-14 83-31V203M173 257c0 17 37 31 83 31s83-14 83-31"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Prisma Data">
+  <defs>
+    <linearGradient id="tile" x1="25" y1="17" x2="228" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#573d51"/><stop offset=".53" stop-color="#342335"/><stop offset="1" stop-color="#231626"/></linearGradient>
+    <linearGradient id="paper" x1="76" y1="51" x2="184" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7ecfa"/></linearGradient>
+    <linearGradient id="fold" x1="143" y1="48" x2="185" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcfdf"/><stop offset="1" stop-color="#f2a4bc"/></linearGradient>
+    <linearGradient id="accent" x1="80" y1="95" x2="188" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#f2a4bc"/><stop offset="1" stop-color="#bd5b90"/></linearGradient>
+    <linearGradient id="light" x1="105" y1="75" x2="189" y2="178" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcfdf"/><stop offset="1" stop-color="#f2a4bc"/></linearGradient>
+    <linearGradient id="deep" x1="104" y1="97" x2="191" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#bd5b90"/><stop offset="1" stop-color="#342335"/></linearGradient>
+    <radialGradient id="glow" cx="73" cy="53" r="193" gradientUnits="userSpaceOnUse"><stop stop-color="#f2a4bc" stop-opacity=".22"/><stop offset="1" stop-color="#f2a4bc" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-35%" y="-25%" width="180%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#060b20" flood-opacity=".28"/></filter>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="59" fill="url(#tile)"/>
+  <rect x="5" y="5" width="246" height="246" rx="58" fill="url(#glow)" stroke="#ffcfdf" stroke-opacity=".19" stroke-width="1.5"/>
+  <g filter="url(#shadow)"><path d="M72 79v92c0 16 24 29 54 29s54-13 54-29V79Z" fill="url(#paper)"/>
+    <path d="M126 79v121c30 0 54-13 54-29V79Z" fill="url(#fold)" opacity=".6"/>
+    <ellipse cx="126" cy="79" rx="54" ry="27" fill="url(#light)"/>
+    <ellipse cx="126" cy="79" rx="39" ry="17" fill="url(#accent)"/>
+    <path d="M73 111c0 16 24 29 53 29s53-13 53-29M73 144c0 16 24 29 53 29s53-13 53-29" fill="none" stroke="#ae7e9b" stroke-opacity=".7" stroke-width="3"/>
+    <path d="M86 104v11m0 22v11m0 22v9" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-opacity=".75"/>
+    <path d="m170 143 39 22v44l-39 22-39-22v-44Z" fill="url(#accent)"/>
+    <path d="m170 143 39 22-39 22-39-22Z" fill="url(#light)"/>
+    <path d="M170 187v44l39-22v-44Z" fill="url(#deep)"/>
+    <path d="m131 165 39 22 39-22M170 187v44" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="1.5"/>
+    <circle cx="170" cy="165" r="5" fill="#fff"/>
+    <path d="m153 192 16 9m0 0 16-9m-16 9v14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g>
+  <path d="m211 51 2 8 8 2-8 2-2 8-2-8-8-2 8-2Z" fill="#ffcfdf"/>
+</svg>

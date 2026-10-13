@@ -105,6 +105,8 @@ h1 { margin: 0; font-size: clamp(3rem, 5.8vw, 5.4rem); font-weight: 650; line-he
 .scene-label::before { content: ""; width: 5px; height: 5px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px rgba(var(--accent-rgb), .3); }
 .card-content { position: relative; z-index: 9; display: flex; flex-direction: column; flex: 1; padding: 24px; }
 .title-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 12px; }
+.title-row.prisma-title { display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: center; justify-content: start; }
+.prisma-title img { display: block; width: 42px; height: 42px; filter: drop-shadow(0 4px 6px #0003); }
 h2 { margin: 0; font-size: 1.5rem; line-height: 1.25; font-weight: 650; letter-spacing: -.035em; }
 h2 span { color: #bdc8d8; font-weight: 400; }
 .card-content p { min-height: 4.8em; margin: 12px 0 24px; color: #aeb9cb; font-size: .9375rem; line-height: 1.6; }
@@ -297,9 +299,7 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 .hub-flow { color: #c5b3ff85; animation: prisma-link-flow 8s linear infinite; }
 .hub-node { position: absolute; z-index: 3; width: 42px; height: 42px; border-radius: 12px; filter: drop-shadow(0 8px 9px #0005); animation: prisma-node-drift 8s ease-in-out infinite; animation-delay: calc(var(--slot) * -1.1s); }
 .hub-node img { width: 100%; height: 100%; border-radius: inherit; }
-.hub-node-pdf { left: 4px; top: 76px; display: grid; place-items: center; background: #50416d; }
-.hub-node-pdf svg { width: 36px; height: 36px; }
-.hub-node-pdf span { position: absolute; left: 9px; bottom: 5px; color: #7b579f; font: 600 6px/1 "Segoe UI",sans-serif; }
+.hub-node-pdf { left: 4px; top: 76px; }
 .hub-node-writer { left: 41px; top: 6px; }
 .hub-node-sheets { right: 39px; top: 6px; }
 .hub-node-slides { right: 4px; top: 76px; }
