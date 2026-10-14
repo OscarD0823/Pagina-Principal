@@ -1,27 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Prisma Sheets">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Asteoria Orbit</title>
+  <desc id="desc">Hojas de cálculo. Identidad original de la familia ASTEORIA: un universo para crear.</desc>
   <defs>
-    <linearGradient id="tile" x1="25" y1="17" x2="228" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#2a5147"/><stop offset=".53" stop-color="#142f2b"/><stop offset="1" stop-color="#0b221f"/></linearGradient>
-    <linearGradient id="paper" x1="76" y1="51" x2="184" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7ecfa"/></linearGradient>
-    <linearGradient id="fold" x1="143" y1="48" x2="185" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#c1f3cf"/><stop offset="1" stop-color="#9de8b6"/></linearGradient>
-    <linearGradient id="accent" x1="80" y1="95" x2="188" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#9de8b6"/><stop offset="1" stop-color="#319b72"/></linearGradient>
-    <linearGradient id="light" x1="105" y1="75" x2="189" y2="178" gradientUnits="userSpaceOnUse"><stop stop-color="#c1f3cf"/><stop offset="1" stop-color="#9de8b6"/></linearGradient>
-    <linearGradient id="deep" x1="104" y1="97" x2="191" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#319b72"/><stop offset="1" stop-color="#142f2b"/></linearGradient>
-    <radialGradient id="glow" cx="73" cy="53" r="193" gradientUnits="userSpaceOnUse"><stop stop-color="#9de8b6" stop-opacity=".22"/><stop offset="1" stop-color="#9de8b6" stop-opacity="0"/></radialGradient>
-    <filter id="shadow" x="-35%" y="-25%" width="180%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#060b20" flood-opacity=".28"/></filter>
+    <linearGradient id="background" x1="115" y1="65" x2="907" y2="994" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#267E75"/><stop offset="1" stop-color="#0D403F"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(260 180) rotate(54) scale(844 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BEF1DB" stop-opacity=".15"/><stop offset="1" stop-color="#BEF1DB" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect x="4" y="4" width="248" height="248" rx="59" fill="url(#tile)"/>
-  <rect x="5" y="5" width="246" height="246" rx="58" fill="url(#glow)" stroke="#c1f3cf" stroke-opacity=".19" stroke-width="1.5"/>
-  <g filter="url(#shadow)"><path d="M87 47h57l43 43v102c0 11-9 20-20 20H87c-11 0-20-9-20-20V67c0-11 9-20 20-20Z" fill="url(#paper)"/>
-  <path d="m144 47 43 43h-27c-9 0-16-7-16-16Z" fill="url(#fold)"/>
-  <path d="M144 48v27c0 9 7 16 16 16h26" fill="none" stroke="#fff" stroke-width="1.5" stroke-opacity=".8"/>
-    <path d="M90 79h30" stroke="#a4beb0" stroke-width="5" stroke-linecap="round"/>
-    <rect x="85" y="103" width="84" height="79" rx="7" fill="url(#deep)"/>
-    <path d="M86 127h82M86 153h82M113 104v77M141 104v77" stroke="#d2f3df" stroke-width="2.5" stroke-opacity=".85"/>
-    <path d="M114 129h25v22h-25Z" fill="#bcf3ca"/>
-    <path d="m169 144 39 42-39 30-39-30Z" fill="url(#accent)"/>
-    <path d="m169 144 39 42-39-12Z" fill="url(#light)"/>
-    <path d="m130 186 39-12 39 12-39 30Z" fill="url(#deep)"/>
-    <path d="m169 144 0 30 39 12M130 186l39-12v42" fill="none" stroke="#effff4" stroke-opacity=".65" stroke-width="1.5"/>
-    <path d="m174 155 22 25" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/></g>
-  <path d="m211 51 2 8 8 2-8 2-2 8-2-8-8-2 8-2Z" fill="#c1f3cf"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
+  <rect x="15" y="15" width="994" height="994" rx="220" fill="url(#aura)" stroke="#BEF1DB" stroke-opacity=".12" stroke-width="2"/>
+  <ellipse cx="511" cy="515" rx="380" ry="259" transform="rotate(-31 511 515)" fill="none" stroke="#BEF1DB" stroke-opacity=".13" stroke-width="15"/>
+  <path d="M803 174C811 209 820 219 855 227C820 235 811 245 803 280C795 245 785 235 751 227C785 219 795 209 803 174Z" fill="#BEF1DB" opacity=".85"/>
+  <circle cx="169" cy="708" r="15" fill="#BEF1DB" opacity=".5"/>
+  <g fill="none" stroke="#FFF9F2" stroke-width="53" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="262" y="280" width="500" height="468" rx="47"/>
+      <path d="M429 286V742M595 286V742M268 436H756M268 592H756"/>
+      <rect x="289" y="307" width="113" height="103" rx="14" fill="#BEF1DB" opacity=".28" stroke="none"/>
+      <circle cx="679" cy="669" r="37" fill="#BEF1DB" stroke="none"/>
+  </g>
 </svg>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explora Prisma y sus seis aplicaciones, Fortuna Real, Caja Fantasma, SnowRunner Studio, RoadCraft Studio y Lankdea. Aplicaciones y herramientas de OscarD0823.">
+  <meta name="description" content="Explora ASTEORIA BETA y sus ocho herramientas, Fortuna Real, Caja Fantasma, SnowRunner Studio, RoadCraft Studio y Lankdea. Aplicaciones y herramientas de OscarD0823.">
   <meta name="theme-color" content="#090c12">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,7 +13,7 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20261009-2">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./styles.css?v=20261013-prisma-icons">
+  <link rel="stylesheet" href="./styles.css?v=20261014-asteoria-beta">
   <script src="./animations.js?v=20261010-1" defer></script>
   <script src="./pwa.js?v=20261010-1" defer></script>
 </head>
@@ -53,7 +53,7 @@
   <main class="shell">
     <section class="intro" aria-labelledby="titulo-principal">
       <div><span class="intro-eyebrow">OSCARD0823 / PORTFOLIO</span><h1 id="titulo-principal">Proyectos<span class="title-dot" aria-hidden="true">.</span></h1></div>
-      <div class="collection-count" aria-label="12 proyectos"><span class="count-line" aria-hidden="true"></span><span class="count-value">12</span><span class="count-caption">PROYECTOS</span></div>
+      <div class="collection-count" aria-label="14 proyectos"><span class="count-line" aria-hidden="true"></span><span class="count-value">14</span><span class="count-caption">PROYECTOS</span></div>
     </section>
     <div class="collection-toolbar">
       <div class="project-filters" role="group" aria-label="Filtrar proyectos" hidden>
@@ -64,11 +64,11 @@
         <button class="filter-button" type="button" data-filter="juegos" aria-pressed="false"><svg aria-hidden="true"><use href="#game-icon"/></svg>Juegos<span>1</span></button>
         <button class="filter-button" type="button" data-filter="modding" aria-pressed="false"><svg aria-hidden="true"><use href="#code-icon"/></svg>Modding<span>2</span></button>
       </div>
-      <span class="collection-label">COLECCIÓN</span><output id="results-count" aria-live="polite" aria-atomic="true">12 proyectos</output>
+      <span class="collection-label">COLECCIÓN</span><output id="results-count" aria-live="polite" aria-atomic="true">14 proyectos</output>
     </div>
     <section id="proyectos" class="project-grid" aria-label="Proyectos disponibles">
       <article class="project-card fortuna" data-project="fortuna" data-category="sorteos">
-        <div class="card-scene fortune-scene" aria-hidden="true">
+        <a class="card-scene fortune-scene" href="https://oscard0823.github.io/Fortuna-Real/" aria-label="Abrir fortuna desde la imagen">
           <div class="scene-caption"><span class="project-number">01</span><span>SORTEOS</span></div>
           <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div><div class="fortune-halo"></div>
           <svg class="fortune-wheel" viewBox="0 0 1024 1024">
@@ -79,7 +79,7 @@
             <path d="M350 438L421 492L505 354L594 491L677 418L643 625H383L350 438Z" fill="none" stroke="url(#wheel-gold)" stroke-width="34" stroke-linejoin="round"/><path d="M401 682H625" stroke="#f8c341" stroke-width="28" stroke-linecap="round"/><g fill="#ffe477"><circle cx="350" cy="429" r="25"/><circle cx="506" cy="343" r="25"/><circle cx="683" cy="408" r="25"/></g>
           </svg>
           <div class="fortune-pointer"></div><div class="scene-particles gold-particles"></div><div class="scene-label">RULETA · CARTAS · CANICAS</div>
-        </div>
+        </a>
         <div class="card-content">
           <div class="title-row"><h2>Fortuna Real</h2></div>
           <p>Sorteos con ruleta, cartas, canicas y Patos Retro.</p>
@@ -87,12 +87,12 @@
         </div>
       </article>
       <article class="project-card fantasma" data-project="fantasma" data-category="juegos">
-        <div class="card-scene phantom-scene" aria-hidden="true">
+        <a class="card-scene phantom-scene" href="https://oscard0823.github.io/Caja-Fantasma/" aria-label="Abrir fantasma desde la imagen">
           <div class="scene-caption"><span class="project-number">02</span><span>ONCE HUMAN</span></div>
           <div class="phantom-grid"></div><div class="crate-glow"></div><div class="loot-ring"></div>
           <img class="scene-object crate-object" src="./assets/phantom-crate.webp" alt="" width="1024" height="1024">
           <div class="scene-particles cyan-particles"></div><div class="scan-line"></div><div class="scene-label">CAJAS · RECOMPENSAS · BRILLANTES</div>
-        </div>
+        </a>
         <div class="card-content">
           <div class="title-row"><h2>Caja Fantasma</h2></div>
           <p>Tus recompensas y módulos Brillantes de Once Human, organizados.</p>
@@ -100,13 +100,13 @@
         </div>
       </article>
       <article class="project-card prisma" data-project="prisma" data-category="documentos">
-        <div class="card-scene pdf-scene" aria-hidden="true">
+        <a class="card-scene pdf-scene" href="https://oscard0823.github.io/asteoria-folio/" aria-label="Abrir Asteoria Folio BETA desde la imagen">
           <div class="scene-caption"><span class="project-number">03</span><span>DOCUMENTOS</span></div>
           <div class="pdf-halo"></div><div class="pdf-orbit"></div>
           <div class="pdf-document">
             <div class="pdf-paper pdf-paper-back"></div><div class="pdf-paper pdf-paper-middle"></div>
             <div class="pdf-paper pdf-paper-front">
-              <div class="paper-heading"><img class="prism-symbol" src="./assets/pdf-logo.svg" width="28" height="28" alt="" loading="lazy"><span>PRISMA <b>PDF</b></span></div>
+              <div class="paper-heading"><img class="prism-symbol" src="./assets/pdf-logo.svg" width="28" height="28" alt="" loading="lazy"><span>ASTEORIA <b>FOLIO</b></span></div>
               <div class="paper-rule"></div><div class="paper-text paper-text-title"></div><div class="paper-text"></div><div class="paper-text paper-text-short"></div>
               <div class="paper-selection"><span></span><i></i><i></i><i></i><i></i></div>
               <div class="paper-text"></div><div class="paper-text paper-text-short"></div><div class="paper-signature"><svg viewBox="0 0 110 35"><path d="M7 25C37-9 46-7 30 16S5 40 30 25 56 7 52 22 65 11 69 23 82 18 100 22M21 29l67-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
@@ -115,16 +115,16 @@
           <div class="pdf-tools"><span class="pdf-tool-type">T</span><span><svg viewBox="0 0 20 20"><path d="m4 13 7-8 4 4-8 7H4Zm6-7 4 4M3 18h14"/></svg></span><span><svg viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="2"/><circle cx="7" cy="7" r="1"/><path d="m4 15 5-5 3 3 2-2 3 4"/></svg></span></div>
           <div class="pdf-cursor"><svg viewBox="0 0 24 24"><path d="m5 3 14 11-7 1-3 6Z" fill="#d7baff" stroke="#2a2048" stroke-width="1.5"/></svg></div>
           <div class="scene-particles"></div><div class="scene-label">EDICIÓN LOCAL · TEXTO · FIRMAS</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/pdf-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>PDF</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/pdf-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Folio</h2><span class="asteoria-beta">BETA</span></div>
           <p>Edita texto, organiza páginas y firma PDF. Tus documentos se quedan en tu dispositivo.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-pdf/" aria-label="Abrir el editor Prisma PDF">Abrir editor<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-folio/" aria-label="Abrir Asteoria Folio BETA">Abrir editor<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="prisma-hub" data-category="documentos">
-        <div class="card-scene prisma-family-scene hub-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">04</span><span>PRISMA</span></div>
+        <a class="card-scene prisma-family-scene hub-scene" href="https://oscard0823.github.io/asteoria/" aria-label="Abrir ASTEORIA desde la imagen">
+          <div class="scene-caption"><span class="project-number">04</span><span>ASTEORIA</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage hub-stage">
             <svg class="hub-connections" viewBox="0 0 276 198" fill="none"><g stroke="currentColor" stroke-width="1.5"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g><g class="hub-flow" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g></svg>
@@ -137,17 +137,17 @@
             <div class="hub-core"><img src="./assets/prisma-logo.svg" width="68" height="68" alt="" loading="lazy"></div>
             <div class="hub-library"><svg viewBox="0 0 16 16"><path d="M2 5h5l2-2h5v10H2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>BIBLIOTECA</div>
           </div>
-          <div class="scene-label">APLICACIONES · BIBLIOTECA LOCAL</div>
-        </div>
+          <div class="scene-label">UN UNIVERSO PARA CREAR · BETA</div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/prisma-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma</h2></div>
-          <p>Tu espacio de trabajo con los seis editores y una biblioteca local.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma/" aria-label="Abrir Prisma">Abrir Prisma<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="title-row prisma-title"><img src="./assets/prisma-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>ASTEORIA</h2><span class="asteoria-beta">BETA</span></div>
+          <p>Tu espacio de trabajo con las ocho herramientas y una biblioteca local.</p>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria/" aria-label="Abrir ASTEORIA">Abrir ASTEORIA<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="writer" data-category="documentos">
-        <div class="card-scene prisma-family-scene writer-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">05</span><span>PRISMA WRITER</span></div>
+        <a class="card-scene prisma-family-scene writer-scene" href="https://oscard0823.github.io/asteoria-scribe/" aria-label="Abrir Asteoria Scribe desde la imagen">
+          <div class="scene-caption"><span class="project-number">05</span><span>ASTEORIA SCRIBE</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage writer-stage">
             <div class="writer-paper-back"></div>
@@ -167,16 +167,16 @@
             <img class="prisma-scene-logo" src="./assets/writer-logo.svg" width="48" height="48" alt="" loading="lazy">
           </div>
           <div class="scene-label">ESCRITURA · ESTILOS · DOCUMENTOS</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/writer-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>Writer</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/writer-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Scribe</h2><span class="asteoria-beta">BETA</span></div>
           <p>Escribe documentos, usa plantillas y exporta a DOCX, PDF y otros formatos.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-writer/" aria-label="Abrir Prisma Writer">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-scribe/" aria-label="Abrir ASTEORIA SCRIBE">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="sheets" data-category="documentos">
-        <div class="card-scene prisma-family-scene sheets-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">06</span><span>PRISMA SHEETS</span></div>
+        <a class="card-scene prisma-family-scene sheets-scene" href="https://oscard0823.github.io/asteoria-orbit/" aria-label="Abrir Asteoria Orbit desde la imagen">
+          <div class="scene-caption"><span class="project-number">06</span><span>ASTEORIA ORBIT</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage sheets-stage">
             <div class="sheet-workbook">
@@ -195,16 +195,16 @@
             <img class="prisma-scene-logo" src="./assets/sheets-logo.svg" width="48" height="48" alt="" loading="lazy">
           </div>
           <div class="scene-label">CELDAS · FÓRMULAS · CÁLCULOS</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/sheets-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>Sheets</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/sheets-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Orbit</h2><span class="asteoria-beta">BETA</span></div>
           <p>Organiza datos, calcula con fórmulas y comparte libros XLSX.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-sheets/" aria-label="Abrir Prisma Sheets">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-orbit/" aria-label="Abrir ASTEORIA ORBIT">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="slides" data-category="documentos">
-        <div class="card-scene prisma-family-scene slides-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">07</span><span>PRISMA SLIDES</span></div>
+        <a class="card-scene prisma-family-scene slides-scene" href="https://oscard0823.github.io/asteoria-nova/" aria-label="Abrir Asteoria Nova desde la imagen">
+          <div class="scene-caption"><span class="project-number">07</span><span>ASTEORIA NOVA</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage slides-stage">
             <div class="slides-back"></div>
@@ -218,16 +218,16 @@
             <img class="prisma-scene-logo" src="./assets/slides-logo.svg" width="48" height="48" alt="" loading="lazy">
           </div>
           <div class="scene-label">DIAPOSITIVAS · DISEÑOS · PRESENTACIÓN</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/slides-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>Slides</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/slides-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Nova</h2><span class="asteoria-beta">BETA</span></div>
           <p>Prepara presentaciones con plantillas, diseños, notas, texto e imágenes.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-slides/" aria-label="Abrir Prisma Slides">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-nova/" aria-label="Abrir ASTEORIA NOVA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="data" data-category="documentos">
-        <div class="card-scene prisma-family-scene data-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">08</span><span>PRISMA DATA</span></div>
+        <a class="card-scene prisma-family-scene data-scene" href="https://oscard0823.github.io/asteoria-nexus/" aria-label="Abrir Asteoria Nexus desde la imagen">
+          <div class="scene-caption"><span class="project-number">08</span><span>ASTEORIA NEXUS</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage data-stage">
             <svg class="data-relations" viewBox="0 0 276 198" fill="none"><path d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="#dd87b2" stroke-opacity=".25" stroke-width="1.5"/><path class="data-flow" d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="currentColor" stroke-width="2" stroke-dasharray="4 10"/><g fill="currentColor"><circle cx="120" cy="62" r="3"/><circle cx="156" cy="96" r="3"/></g></svg>
@@ -237,16 +237,16 @@
             <img class="prisma-scene-logo" src="./assets/data-logo.svg" width="48" height="48" alt="" loading="lazy">
           </div>
           <div class="scene-label">TABLAS · RELACIONES · CONSULTAS</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/data-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>Data</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/data-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Nexus</h2><span class="asteoria-beta">BETA</span></div>
           <p>Crea bases SQLite, relaciona tablas y consulta tus datos localmente.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-data/" aria-label="Abrir Prisma Data">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-nexus/" aria-label="Abrir ASTEORIA NEXUS">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card prisma-family" data-project="publisher" data-category="documentos">
-        <div class="card-scene prisma-family-scene publisher-scene" aria-hidden="true">
-          <div class="scene-caption"><span class="project-number">09</span><span>PRISMA PUBLISHER</span></div>
+        <a class="card-scene prisma-family-scene publisher-scene" href="https://oscard0823.github.io/asteoria-canvas/" aria-label="Abrir Asteoria Canvas desde la imagen">
+          <div class="scene-caption"><span class="project-number">09</span><span>ASTEORIA CANVAS</span></div>
           <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
           <div class="prisma-stage publisher-stage">
             <div class="publisher-paper-back"></div>
@@ -263,21 +263,35 @@
             <img class="prisma-scene-logo" src="./assets/publisher-logo.svg" width="48" height="48" alt="" loading="lazy">
           </div>
           <div class="scene-label">MAQUETACIÓN · GUÍAS · PUBLICACIONES</div>
-        </div>
+        </a>
         <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/publisher-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Prisma <span>Publisher</span></h2></div>
+          <div class="title-row prisma-title"><img src="./assets/publisher-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Canvas</h2><span class="asteoria-beta">BETA</span></div>
           <p>Diseña carteles, boletines, folletos e invitaciones para imprimir.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/prisma-publisher/" aria-label="Abrir Prisma Publisher">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-canvas/" aria-label="Abrir ASTEORIA CANVAS">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+        </div>
+      </article>
+      <article class="project-card prisma-family lore-card" data-project="stories" data-category="documentos"><a class="card-scene lore-scene" href="https://oscard0823.github.io/asteoria-lore/" aria-label="Abrir Asteoria Lore BETA desde la imagen"><div class="scene-caption"><span class="project-number">LORE</span><span>ASTEORIA · BETA</span></div><div class="lore-portal-orbit"></div><img class="lore-portal-logo" src="./assets/stories-logo.svg" width="130" height="130" alt="" loading="lazy"><div class="lore-portal-family"><span>PERSONAJES</span><i></i><span>FAMILIAS</span><i></i><span>HISTORIAS</span></div><div class="scene-label">ESCRIBE · CREA PERSONAJES · CONECTA FAMILIAS</div></a><div class="card-content"><div class="title-row prisma-title"><img src="./assets/stories-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria Lore</h2><span class="asteoria-beta">BETA</span></div><p>Tu espacio para escribir novelas y fanfics, guardar retratos y construir las relaciones de tu universo.</p><div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/asteoria-lore/" aria-label="Abrir Asteoria Lore BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div></div></article>
+      <article class="project-card prisma-family atlas-card" data-project="architecture" data-category="documentos">
+        <a class="card-scene atlas-scene" href="https://oscard0823.github.io/asteoria-atlas/" aria-label="Abrir Asteoria Atlas BETA desde la imagen">
+          <img class="atlas-preview" src="./assets/architecture-preview.svg" width="1000" height="600" alt="Casa con mobiliario y medidas en perspectiva 3D" loading="lazy">
+          <div class="scene-caption"><span class="project-number">ATLAS</span><span>ASTEORIA · BETA</span></div>
+          <img class="atlas-card-mark" src="./assets/architecture-logo.svg" width="66" height="66" alt="" loading="lazy">
+          <div class="scene-label">PLANOS · TERRENOS · RECORRIDOS 3D</div>
+        </a>
+        <div class="card-content">
+          <div class="title-row prisma-title"><img src="./assets/architecture-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Asteoria <span>Atlas</span></h2><span class="atlas-beta">BETA</span></div>
+          <p>Diseña sobre tu lote, importa planos, distribuye muebles y recorre tus espacios. Un universo para crear.</p>
+          <div class="card-bottom"><span class="platform">WEB + PC · CAD Y ARQUITECTURA</span><a class="project-link" href="https://oscard0823.github.io/asteoria-atlas/" aria-label="Abrir Asteoria Atlas BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card snow" data-project="snow" data-category="modding">
-        <div class="card-scene snow-scene" aria-hidden="true">
+        <a class="card-scene snow-scene" href="https://github.com/OscarD0823/snowrunner" aria-label="Abrir snow desde la imagen">
           <div class="scene-caption"><span class="project-number">10</span><span>SNOWRUNNER</span></div>
           <div class="terrain-grid"></div><div class="truck-glow"></div>
           <img class="scene-object truck-object" src="./assets/snow-truck.webp" alt="" width="1024" height="683" loading="lazy">
           <div class="snowfall"></div><div class="moving-tracks"></div>
           <div class="technical-marker marker-one"><i></i><span>VEHÍCULOS</span></div><div class="technical-marker marker-two"><i></i><span>COMPONENTES</span></div><div class="scene-label">VEHÍCULOS · REMOLQUES · XML</div>
-        </div>
+        </a>
         <div class="card-content">
           <div class="title-row"><h2>SnowRunner <span>Studio</span></h2></div>
           <p>Editor visual de vehículos, remolques y componentes de SnowRunner.</p>
@@ -285,13 +299,13 @@
         </div>
       </article>
       <article class="project-card road" data-project="road" data-category="modding">
-        <div class="card-scene road-scene" aria-hidden="true">
+        <a class="card-scene road-scene" href="https://github.com/OscarD0823/roadcraft" aria-label="Abrir road desde la imagen">
           <div class="scene-caption"><span class="project-number">11</span><span>ROADCRAFT</span></div>
           <div class="blueprint-grid"></div><div class="machine-glow"></div>
           <img class="scene-object machine-object" src="./assets/road-machine.webp" alt="" width="1024" height="683" loading="lazy">
           <div class="blueprint-scan"></div><div class="work-lines"></div>
           <div class="technical-marker marker-one"><i></i><span>MODDING</span></div><div class="technical-marker marker-two"><i></i><span>LOGÍSTICA</span></div><div class="scene-label">VEHÍCULOS · CONVOYES · PARTIDAS</div>
-        </div>
+        </a>
         <div class="card-content">
           <div class="title-row"><h2>RoadCraft <span>Studio</span></h2></div>
           <p>Edición de vehículos, convoyes logísticos y partidas de RoadCraft.</p>
@@ -299,12 +313,12 @@
         </div>
       </article>
       <article class="project-card lankdea" data-project="lankdea" data-category="utilidades">
-        <div class="card-scene vault-scene" aria-hidden="true">
+        <a class="card-scene vault-scene" href="https://github.com/OscarD0823/Lankdea-APK" aria-label="Abrir lankdea desde la imagen">
           <div class="scene-caption"><span class="project-number">12</span><span>UTILIDADES · COFRE PERSONAL</span></div>
           <div class="vault-halo"></div><div class="orbit vault-orbit"></div><div class="vault-floor"></div>
           <div class="vault-object"><img class="vault-atlas" src="./assets/lankdea-cofre.webp" alt="" width="1024" height="512"></div>
           <div class="scene-particles"></div><div class="scene-label">CONTRASEÑAS · NOTAS · ARCHIVOS</div>
-        </div>
+        </a>
         <div class="card-content">
           <div class="title-row"><h2>Lankdea</h2></div>
           <p>Cofre cifrado para contraseñas, notas y archivos. Sincroniza tus dispositivos sin nube.</p>

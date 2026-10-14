@@ -1,26 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Prisma Slides">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Asteoria Nova</title>
+  <desc id="desc">Presentaciones. Identidad original de la familia ASTEORIA: un universo para crear.</desc>
   <defs>
-    <linearGradient id="tile" x1="25" y1="17" x2="228" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#504264"/><stop offset=".53" stop-color="#2b203e"/><stop offset="1" stop-color="#1d152d"/></linearGradient>
-    <linearGradient id="paper" x1="76" y1="51" x2="184" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7ecfa"/></linearGradient>
-    <linearGradient id="fold" x1="143" y1="48" x2="185" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#efc4f3"/><stop offset="1" stop-color="#d6afff"/></linearGradient>
-    <linearGradient id="accent" x1="80" y1="95" x2="188" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#d6afff"/><stop offset="1" stop-color="#9560da"/></linearGradient>
-    <linearGradient id="light" x1="105" y1="75" x2="189" y2="178" gradientUnits="userSpaceOnUse"><stop stop-color="#efc4f3"/><stop offset="1" stop-color="#d6afff"/></linearGradient>
-    <linearGradient id="deep" x1="104" y1="97" x2="191" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#9560da"/><stop offset="1" stop-color="#2b203e"/></linearGradient>
-    <radialGradient id="glow" cx="73" cy="53" r="193" gradientUnits="userSpaceOnUse"><stop stop-color="#d6afff" stop-opacity=".22"/><stop offset="1" stop-color="#d6afff" stop-opacity="0"/></radialGradient>
-    <filter id="shadow" x="-35%" y="-25%" width="180%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#060b20" flood-opacity=".28"/></filter>
+    <linearGradient id="background" x1="115" y1="65" x2="907" y2="994" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AC583B"/><stop offset="1" stop-color="#652E29"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(260 180) rotate(54) scale(844 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE0BE" stop-opacity=".15"/><stop offset="1" stop-color="#FFE0BE" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect x="4" y="4" width="248" height="248" rx="59" fill="url(#tile)"/>
-  <rect x="5" y="5" width="246" height="246" rx="58" fill="url(#glow)" stroke="#efc4f3" stroke-opacity=".19" stroke-width="1.5"/>
-  <g filter="url(#shadow)"><path d="M127 159v41m-26 9 26-17 26 17" fill="none" stroke="url(#fold)" stroke-width="9" stroke-linecap="round"/>
-    <rect x="51" y="58" width="154" height="113" rx="15" fill="url(#paper)"/>
-    <path d="M67 81h55M67 96h39" stroke="#b4a5ce" stroke-width="5" stroke-linecap="round"/>
-    <path d="M69 148v-24h16v24Zm27 0v-38h16v38Z" fill="url(#accent)"/>
-    <path d="M139 78a29 29 0 1 0 29 29h-29Z" fill="url(#deep)"/>
-    <path d="M144 73v29h29a29 29 0 0 0-29-29Z" fill="url(#light)"/>
-    <path d="M57 162h144" stroke="#d2c7e7" stroke-width="2"/>
-    <path d="m163 142 43 32-43 33Z" fill="url(#accent)"/>
-    <path d="m163 142 43 32-28-1Z" fill="url(#light)"/>
-    <path d="m163 207 15-34 28 1Z" fill="url(#deep)"/>
-    <path d="m163 142 15 31-15 34M178 173l28 1" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.5"/></g>
-  <path d="m211 51 2 8 8 2-8 2-2 8-2-8-8-2 8-2Z" fill="#efc4f3"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
+  <rect x="15" y="15" width="994" height="994" rx="220" fill="url(#aura)" stroke="#FFE0BE" stroke-opacity=".12" stroke-width="2"/>
+  <ellipse cx="511" cy="515" rx="380" ry="259" transform="rotate(-31 511 515)" fill="none" stroke="#FFE0BE" stroke-opacity=".13" stroke-width="15"/>
+  <path d="M803 174C811 209 820 219 855 227C820 235 811 245 803 280C795 245 785 235 751 227C785 219 795 209 803 174Z" fill="#FFE0BE" opacity=".85"/>
+  <circle cx="169" cy="708" r="15" fill="#FFE0BE" opacity=".5"/>
+  <g fill="none" stroke="#FFF9F2" stroke-width="53" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="232" y="292" width="560" height="376" rx="43"/>
+      <path d="M512 675V783M391 783H633M326 414H463M326 501H421"/>
+      <path d="M635 368C649 429 667 448 727 461C667 475 649 494 635 554C621 494 604 475 544 461C604 448 621 429 635 368Z" fill="#FFE0BE" stroke="none"/>
+  </g>
 </svg>

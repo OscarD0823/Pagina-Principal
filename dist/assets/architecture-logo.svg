@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Asteoria Atlas</title>
+  <desc id="desc">CAD y arquitectura. Identidad original de la familia ASTEORIA: un universo para crear.</desc>
+  <defs>
+    <linearGradient id="background" x1="115" y1="65" x2="907" y2="994" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#957342"/><stop offset="1" stop-color="#4A3D28"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(260 180) rotate(54) scale(844 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E2B9" stop-opacity=".15"/><stop offset="1" stop-color="#F8E2B9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
+  <rect x="15" y="15" width="994" height="994" rx="220" fill="url(#aura)" stroke="#F8E2B9" stroke-opacity=".12" stroke-width="2"/>
+  <ellipse cx="511" cy="515" rx="380" ry="259" transform="rotate(-31 511 515)" fill="none" stroke="#F8E2B9" stroke-opacity=".13" stroke-width="15"/>
+  <path d="M803 174C811 209 820 219 855 227C820 235 811 245 803 280C795 245 785 235 751 227C785 219 795 209 803 174Z" fill="#F8E2B9" opacity=".85"/>
+  <circle cx="169" cy="708" r="15" fill="#F8E2B9" opacity=".5"/>
+  <g fill="none" stroke="#FFF9F2" stroke-width="53" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 248L760 393V657L512 802L264 657V393Z"/>
+      <path d="M268 395L512 538L756 395M512 541V795M387 321L634 466M390 467L636 321"/>
+      <path d="M264 525L389 598M760 525L636 598" stroke="#F8E2B9"/>
+  </g>
+</svg>

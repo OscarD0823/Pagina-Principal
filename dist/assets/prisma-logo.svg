@@ -1,24 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Prisma">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">ASTEORIA</title>
+  <desc id="desc">Un universo para crear. Identidad original de la familia ASTEORIA: un universo para crear.</desc>
   <defs>
-    <linearGradient id="tile" x1="25" y1="17" x2="228" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#363954"/><stop offset=".53" stop-color="#20233e"/><stop offset="1" stop-color="#13162d"/></linearGradient>
-    <linearGradient id="paper" x1="76" y1="51" x2="184" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7ecfa"/></linearGradient>
-    <linearGradient id="fold" x1="143" y1="48" x2="185" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#e6d4ff"/><stop offset="1" stop-color="#c5aeff"/></linearGradient>
-    <linearGradient id="accent" x1="80" y1="95" x2="188" y2="195" gradientUnits="userSpaceOnUse"><stop stop-color="#c5aeff"/><stop offset="1" stop-color="#7958de"/></linearGradient>
-    <linearGradient id="light" x1="105" y1="75" x2="189" y2="178" gradientUnits="userSpaceOnUse"><stop stop-color="#e6d4ff"/><stop offset="1" stop-color="#c5aeff"/></linearGradient>
-    <linearGradient id="deep" x1="104" y1="97" x2="191" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#7958de"/><stop offset="1" stop-color="#20233e"/></linearGradient>
-    <radialGradient id="glow" cx="73" cy="53" r="193" gradientUnits="userSpaceOnUse"><stop stop-color="#c5aeff" stop-opacity=".22"/><stop offset="1" stop-color="#c5aeff" stop-opacity="0"/></radialGradient>
-    <filter id="shadow" x="-35%" y="-25%" width="180%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#060b20" flood-opacity=".28"/></filter>
+    <linearGradient id="background" x1="115" y1="65" x2="907" y2="994" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#524B9D"/><stop offset="1" stop-color="#211A4E"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(260 180) rotate(54) scale(844 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8CDFF" stop-opacity=".15"/><stop offset="1" stop-color="#D8CDFF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect x="4" y="4" width="248" height="248" rx="59" fill="url(#tile)"/>
-  <rect x="5" y="5" width="246" height="246" rx="58" fill="url(#glow)" stroke="#e6d4ff" stroke-opacity=".19" stroke-width="1.5"/>
-  <g filter="url(#shadow)"><path d="m128 43 76 44v88l-76 44-76-44V87Z" fill="url(#accent)"/>
-    <path d="m128 43 76 44-76 44-76-44Z" fill="url(#light)"/>
-    <path d="M128 131v88l76-44V87Z" fill="url(#deep)"/>
-    <path d="m52 87 76 44-41 22-35-22Z" fill="#a894eb"/>
-    <path d="m128 43 0 88 76-44M52 87l76 44v88" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/>
-    <path d="m135 51 54 31" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
-    <path d="M91 174v-68h33c21 0 33 10 33 28s-12 28-33 28h-14v12Zm19-29h12c11 0 16-4 16-11s-5-11-16-11h-12Z" fill="url(#paper)"/>
-    <path d="m128 43 0 23 42 24 21-8Z" fill="#b5eafa" opacity=".75"/>
-    <path d="m52 175 35-22 41 24v42Z" fill="#e6a9d1" opacity=".4"/></g>
-  <path d="m211 51 2 8 8 2-8 2-2 8-2-8-8-2 8-2Z" fill="#e6d4ff"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
+  <rect x="15" y="15" width="994" height="994" rx="220" fill="url(#aura)" stroke="#D8CDFF" stroke-opacity=".12" stroke-width="2"/>
+  
+  <g fill="none" stroke="#FFF9F2" stroke-width="53" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="512" cy="526" rx="330" ry="183" transform="rotate(-31 512 526)" fill="none" stroke="#D8CDFF" stroke-width="53"/>
+      <path d="M512 234C537 376 572 417 708 445C570 472 536 515 512 656C487 515 450 473 315 445C453 418 486 376 512 234Z" fill="#FFF9F2"/>
+      <circle cx="720" cy="720" r="45" fill="#FFF9F2"/>
+      <circle cx="256" cy="688" r="22" fill="#D8CDFF"/>
+  </g>
 </svg>

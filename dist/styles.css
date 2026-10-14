@@ -105,7 +105,7 @@ h1 { margin: 0; font-size: clamp(3rem, 5.8vw, 5.4rem); font-weight: 650; line-he
 .scene-label::before { content: ""; width: 5px; height: 5px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px rgba(var(--accent-rgb), .3); }
 .card-content { position: relative; z-index: 9; display: flex; flex-direction: column; flex: 1; padding: 24px; }
 .title-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 12px; }
-.title-row.prisma-title { display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: center; justify-content: start; }
+.title-row.prisma-title { display: grid; grid-template-columns: 42px minmax(0, 1fr) auto; align-items: center; justify-content: start; }
 .prisma-title img { display: block; width: 42px; height: 42px; filter: drop-shadow(0 4px 6px #0003); }
 h2 { margin: 0; font-size: 1.5rem; line-height: 1.25; font-weight: 650; letter-spacing: -.035em; }
 h2 span { color: #bdc8d8; font-weight: 400; }
@@ -436,3 +436,8 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 @keyframes publisher-art-align { 0%,100% { transform: scale(1.08) translateX(-3px); } 40%,85% { transform: scale(1) translateX(0); } }
 @keyframes publisher-selection-align { 0%,100% { transform: translate(-3px,2px); } 40%,85% { transform: translate(0,0); } }
 @keyframes publisher-cursor-align { 0%,100% { transform: translate(-3px,2px); } 40%,85% { transform: translate(6px,-10px); } }
+
+/* Asteoria Atlas */
+.atlas-card{--accent:#d9b47a;--accent-rgb:217,180,122}.atlas-scene{display:block;text-decoration:none;background:#101a26}.atlas-preview{width:100%;height:100%;object-fit:cover;transition:transform .8s}.atlas-scene:hover .atlas-preview{transform:scale(1.035)}.atlas-card-mark{position:absolute;right:24px;top:58px;border-radius:17px;box-shadow:0 10px 25px #0006}.atlas-beta{font-size:9px;letter-spacing:1px;padding:3px 7px;border:1px solid #b5966455;border-radius:5px;color:#dfc393;background:#b5966415}.atlas-scene:focus-visible{outline:3px solid #e7c994;outline-offset:-5px}
+
+.asteoria-beta{font-size:9px;letter-spacing:1.1px;padding:4px 7px;border:1px solid #ada0c852;color:#c3b4e3;background:#8575b81c;border-radius:5px;white-space:nowrap}a.card-scene{display:block;color:inherit;text-decoration:none}a.card-scene:focus-visible{outline:3px solid #c4abea;outline-offset:-4px}.lore-scene{background:radial-gradient(ellipse at center,#30213e,#13101c)!important;display:flex!important;align-items:center;justify-content:center}.lore-portal-logo{position:absolute;left:calc(50% - 65px);top:72px;filter:drop-shadow(0 18px 25px #09071680)}.lore-portal-orbit{position:absolute;left:calc(50% - 130px);top:55px;width:260px;height:150px;border:1px solid #7c639752;border-radius:50%;transform:rotate(-18deg)}.lore-portal-family{position:absolute;left:15%;right:15%;bottom:56px;display:flex;align-items:center;justify-content:center;gap:8px;color:#b4a2c5;font-size:7px;letter-spacing:1px}.lore-portal-family i{width:25px;height:1px;background:#9a76bb50}
