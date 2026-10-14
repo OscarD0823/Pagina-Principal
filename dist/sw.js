@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261013-prisma-icons`;
+const cacheName = `${cachePrefix}20261013-prisma-own`;
 const assetPaths = [
   'index.html',
   'styles.css',
