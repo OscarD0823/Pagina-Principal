@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261014-asteoria-beta`;
+const cacheName = `${cachePrefix}20261014-asteoria-audio`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
