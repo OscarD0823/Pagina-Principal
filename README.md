@@ -6,7 +6,7 @@ Portada animada para los seis proyectos de OscarD0823, con identidad vectorial p
 | --- | --- | --- |
 | Sorteos | Fortuna Real | https://oscard0823.github.io/Fortuna-Real/ |
 | Juegos | Caja Fantasma | https://oscard0823.github.io/Caja-Fantasma/ |
-| Documentos | Asteoria Folio | https://oscard0823.github.io/asteoria-folio/ |
+| Documentos | Auralis Folio | https://oscard0823.github.io/auralis-folio/ |
 | Modding | SnowRunner Studio | https://github.com/OscarD0823/snowrunner |
 | Modding | RoadCraft Studio | https://github.com/OscarD0823/roadcraft |
 | Utilidades | Lankdea | https://github.com/OscarD0823/Lankdea-APK |
@@ -35,7 +35,7 @@ Para añadir otra herramienta de documentos, usa `data-category="documentos"` en
 
 Las tarjetas no muestran versiones de los programas para evitar mantenimiento con cada lanzamiento. Sus enlaces apuntan a las páginas o repositorios de cada proyecto.
 
-Fortuna Real, Caja Fantasma y Asteoria Folio abren sus páginas en la misma pestaña. Los enlaces a los repositorios de SnowRunner Studio, RoadCraft Studio y Lankdea siguen abriendo GitHub en otra pestaña.
+Fortuna Real, Caja Fantasma y Auralis Folio abren sus páginas en la misma pestaña. Los enlaces a los repositorios de SnowRunner Studio, RoadCraft Studio y Lankdea siguen abriendo GitHub en otra pestaña.
 
 ## Instalar como aplicación
 
@@ -49,9 +49,9 @@ El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-P
 
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
 
-ASTEORIA y sus ocho herramientas se enlazan por separado desde Documentos. Asteoria Folio dispone de su propia tarjeta y ruta; ASTEORIA abre la aplicación general en /asteoria/. Cada enlace web permanece en la misma pestaña.
+Auralis y sus ocho herramientas se enlazan por separado desde Documentos. Auralis Folio dispone de su propia tarjeta y ruta; Auralis abre la aplicación general en /auralis/. Cada enlace web permanece en la misma pestaña.
 
-Cada tarjeta de la familia ASTEORIA tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
+Cada tarjeta de la familia Auralis tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
 
 
-ASTEORIA BETA reúne ocho herramientas independientes: Scribe, Orbit, Nova, Folio, Canvas, Atlas, Nexus y Lore. Sus tarjetas y la global enlazan por imagen y botón a sus propias páginas; los iconos mantienen una identidad común original.
+Auralis BETA reúne ocho herramientas independientes: Scribe, Orbit, Nova, Folio, Canvas, Atlas, Nexus y Lore. Sus tarjetas y la global enlazan por imagen y botón a sus propias páginas; los iconos mantienen una identidad común original.

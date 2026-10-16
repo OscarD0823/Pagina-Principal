@@ -1,9 +1,14 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261014-asteoria-audio`;
+const cacheName = `${cachePrefix}20261016-auralis`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
+  'assets/auralis-fortuna.svg',
+  'assets/auralis-phantom.svg',
+  'assets/auralis-snowrunner.svg',
+  'assets/auralis-roadcraft.svg',
+  'assets/auralis-lankdea.svg',
   'styles.css',
   'animations.js',
   'pwa.js',

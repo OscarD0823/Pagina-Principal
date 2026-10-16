@@ -1,24 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
-  <title id="title">Asteoria Scribe</title>
-  <desc id="desc">Documentos. Identidad original de la familia ASTEORIA: un universo para crear.</desc>
-  <defs>
-    <linearGradient id="background" x1="115" y1="65" x2="907" y2="994" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4265A8"/><stop offset="1" stop-color="#183665"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(260 180) rotate(54) scale(844 720)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#BED8FF" stop-opacity=".15"/><stop offset="1" stop-color="#BED8FF" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
-  <rect x="15" y="15" width="994" height="994" rx="220" fill="url(#aura)" stroke="#BED8FF" stroke-opacity=".12" stroke-width="2"/>
-  <ellipse cx="511" cy="515" rx="380" ry="259" transform="rotate(-31 511 515)" fill="none" stroke="#BED8FF" stroke-opacity=".13" stroke-width="15"/>
-  <path d="M803 174C811 209 820 219 855 227C820 235 811 245 803 280C795 245 785 235 751 227C785 219 795 209 803 174Z" fill="#BED8FF" opacity=".85"/>
-  <circle cx="169" cy="708" r="15" fill="#BED8FF" opacity=".5"/>
-  <g fill="none" stroke="#FFF9F2" stroke-width="53" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc"><title id="title">Auralis Scribe</title><desc id="desc">Aurora y luz. Identidad original Auralis: una nueva luz para tus ideas.</desc><defs><linearGradient id="tile" x2=".8" y2="1"><stop stop-color="#143D46"/><stop offset="1" stop-color="#101B30"/></linearGradient><linearGradient id="aurora" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#9BF1DE"/><stop offset=".52" stop-color="#9EC7FF"/><stop offset="1" stop-color="#9BF1DE"/></linearGradient><radialGradient id="glow" cx=".25" cy=".16" r=".9"><stop stop-color="#9BF1DE" stop-opacity=".27"/><stop offset="1" stop-color="#9EC7FF" stop-opacity="0"/></radialGradient><filter id="shade" x="-.3" y="-.3" width="1.6" height="1.6"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#06111D" flood-opacity=".5"/></filter><clipPath id="tile-clip"><rect width="1024" height="1024" rx="230"/></clipPath></defs><g clip-path="url(#tile-clip)"><rect width="1024" height="1024" rx="230" fill="url(#tile)"/><rect x="12" y="12" width="1000" height="1000" rx="220" fill="url(#glow)" stroke="#9BF1DE" stroke-opacity=".22" stroke-width="2"/><path d="M-40 363C150 34 420 345 644 192S982 84 1103 159" fill="none" stroke="url(#aurora)" stroke-width="120" opacity=".09"/><path d="M-39 292C178 72 363 337 597 186S960 110 1100 32" fill="none" stroke="url(#aurora)" stroke-width="30" opacity=".5"/><path d="M-15 322C177 111 391 375 630 220S962 147 1060 73" fill="none" stroke="#9BF1DE" stroke-width="3" opacity=".7"/><path d="M102 855Q512 761 922 855" fill="none" stroke="url(#aurora)" stroke-width="4" opacity=".4"/><g transform="translate(51 63) scale(.9)" fill="none" stroke="#F6FBFF" stroke-width="44" stroke-linecap="round" stroke-linejoin="round" filter="url(#shade)">
     <path d="M317 251H604L704 351V735Q704 783 656 783H317Q269 783 269 735V299Q269 251 317 251Z"/>
       <path d="M604 258V351H696"/>
       <path d="M357 464H569M357 556H546M357 648H476"/>
-      <path d="M607 705L765 487" stroke="#FFF9F2" stroke-width="66"/>
-      <path d="M607 705L588 764L641 736" fill="#FFF9F2" stroke="#FFF9F2" stroke-width="15"/>
-  </g>
-</svg>
+      <path d="M607 705L765 487" stroke="#9BF1DE" stroke-width="66"/>
+      <path d="M607 705L588 764L641 736" fill="#9BF1DE" stroke="#9BF1DE" stroke-width="15"/>
+  </g><circle cx="817" cy="816" r="22" fill="#9BF1DE"/><circle cx="817" cy="816" r="37" fill="none" stroke="#9BF1DE" stroke-opacity=".2" stroke-width="2"/></g></svg>
