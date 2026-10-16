@@ -4,12 +4,12 @@ Portada animada para los seis proyectos de OscarD0823, con identidad vectorial p
 
 | Apartado | Proyecto | Destino |
 | --- | --- | --- |
-| Sorteos | Fortuna Real | https://oscard0823.github.io/Fortuna-Real/ |
-| Juegos | Caja Fantasma | https://oscard0823.github.io/Caja-Fantasma/ |
+| Sorteos | Fortuna Real | https://oscard0823.github.io/auralis-fortuna-real/ |
+| Juegos | Caja Fantasma | https://oscard0823.github.io/auralis-caja-fantasma/ |
 | Documentos | Auralis Folio | https://oscard0823.github.io/auralis-folio/ |
-| Modding | SnowRunner Studio | https://github.com/OscarD0823/snowrunner |
-| Modding | RoadCraft Studio | https://github.com/OscarD0823/roadcraft |
-| Utilidades | Lankdea | https://github.com/OscarD0823/Lankdea-APK |
+| Modding | SnowRunner Studio | https://github.com/OscarD0823/auralis-snowrunner |
+| Modding | RoadCraft Studio | https://github.com/OscarD0823/auralis-roadcraft |
+| Utilidades | Lankdea | https://github.com/OscarD0823/auralis-lankdea |
 
 Los archivos públicos están en `dist/`. Es una página estática sin dependencias.
 

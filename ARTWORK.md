@@ -10,7 +10,7 @@ Las ilustraciones de SnowRunner Studio, RoadCraft Studio y Caja Fantasma se crea
 
 Los originales PNG están en `D:/Pagina Principal/project-art/`. Las tres ilustraciones generadas usan copias WebP optimizadas, con transparencia, que en conjunto pesan aproximadamente 580 KB.
 
-El archivo `dist/assets/lankdea-cofre.webp` es una copia WebP optimizada (212 KB) del [atlas original de Lankdea](https://github.com/OscarD0823/Lankdea-APK/blob/main/1-programa/assets/cofre_atlas_gothic.png), publicado bajo la licencia MIT del proyecto, conservada en `dist/assets/lankdea-LICENSE.txt`. Contiene los estados cerrado y abierto; CSS muestra un fotograma a la vez sin alterar la ilustración.
+El archivo `dist/assets/lankdea-cofre.webp` es una copia WebP optimizada (212 KB) del [atlas original de Lankdea](https://github.com/OscarD0823/auralis-lankdea/blob/main/1-programa/assets/cofre_atlas_gothic.png), publicado bajo la licencia MIT del proyecto, conservada en `dist/assets/lankdea-LICENSE.txt`. Contiene los estados cerrado y abierto; CSS muestra un fotograma a la vez sin alterar la ilustración.
 
 ## Identidad y documentos
 
