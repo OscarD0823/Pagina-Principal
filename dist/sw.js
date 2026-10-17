@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261016-auralis-original-logos`;
+const cacheName = `${cachePrefix}20261016-auralis-luz-2`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
