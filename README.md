@@ -6,6 +6,7 @@ Portada animada para los seis proyectos de OscarD0823, con identidad vectorial p
 | --- | --- | --- |
 | Sorteos | Fortuna Real | https://oscard0823.github.io/auralis-fortuna-real/ |
 | Juegos | Caja Fantasma | https://oscard0823.github.io/auralis-caja-fantasma/ |
+| Juegos | Auralis Frontier | https://oscard0823.github.io/auralis-frontier/ |
 | Documentos | Auralis Folio | https://oscard0823.github.io/auralis-folio/ |
 | Modding | SnowRunner Studio | https://github.com/OscarD0823/auralis-snowrunner |
 | Modding | RoadCraft Studio | https://github.com/OscarD0823/auralis-roadcraft |

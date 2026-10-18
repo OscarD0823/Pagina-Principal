@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261016-auralis-luz-2`;
+const cacheName = `${cachePrefix}20261018-frontier-1`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
@@ -9,6 +9,8 @@ const assetPaths = [
   'assets/auralis-snowrunner.svg',
   'assets/auralis-roadcraft.svg',
   'assets/auralis-lankdea.svg',
+  'assets/auralis-frontier.svg',
+  'assets/auralis-frontier-preview.png',
   'styles.css',
   'animations.js',
   'pwa.js',
