@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261020-strategy-games-1`;
+const cacheName = `${cachePrefix}20261020-classic-strategy-2`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
