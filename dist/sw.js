@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261020-frontier-14`;
+const cacheName = `${cachePrefix}20261020-strategy-games-1`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
@@ -11,6 +11,10 @@ const assetPaths = [
   'assets/auralis-lankdea.svg',
   'assets/auralis-frontier.svg',
   'assets/auralis-frontier-v14-preview.png',
+  'assets/auralis-wars.svg',
+  'assets/auralis-empires.svg',
+  'assets/auralis-wars-preview.png',
+  'assets/auralis-empires-preview.png',
   'styles.css',
   'animations.js',
   'pwa.js',
