@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261020-wars-atlas-4`;
+const cacheName = `${cachePrefix}20261020-wars-islands-5`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
