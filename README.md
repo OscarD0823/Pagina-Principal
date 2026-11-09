@@ -50,11 +50,11 @@ El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-P
 
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
 
-Auralis Atlas y Auralis Folio aparecen en la colección y en el filtro Documentos. El enlace **Documentos en beta** abre la vista de Auralis, Scribe, Orbit, Nova, Nexus, Lore y Canvas. Cada herramienta conserva su enlace directo.
+Auralis Atlas y Auralis Folio aparecen en la colección y en el filtro Documentos. El enlace **Documentos en beta** abre la vista de Auralis, Scribe, Orbit, Nova, Nexus, Lore, Canvas e Iris. Cada herramienta conserva su enlace directo.
 
 Cada tarjeta de la familia Auralis tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
 
 
 Auralis BETA reúne ocho herramientas independientes: Scribe, Orbit, Nova, Folio, Canvas, Atlas, Nexus y Lore. Sus tarjetas y la global enlazan por imagen y botón a sus propias páginas; los iconos mantienen una identidad común original.
 
-Auralis Iris aparece en **Documentos en beta** como escáner independiente de la familia Auralis. Su tarjeta abre la aplicación en GitHub Pages.
+Auralis Iris aparece en **Documentos en beta** como escáner independiente de la familia Auralis. Su tarjeta enlaza a la aplicación web y a las descargas de Windows x64 en GitHub. Iris permite exportar cada página en JPG, reunir los JPG en un ZIP y crear un PDF ligero.

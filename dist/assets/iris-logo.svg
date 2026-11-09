@@ -1,7 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="44" fill="#103d34"/>
-  <path d="M54 77V57h20m44 0h20v20m0 38v20h-20m-44 0H54v-20" fill="none" stroke="#a5e4c9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M76 84V72h28l12 12v37H76v-23m28-26v13h12" fill="none" stroke="#f8faf5" stroke-width="5" stroke-linejoin="round"/>
-  <path d="M50 94h92" stroke="#7fdbb5" stroke-width="5" stroke-linecap="round"/>
-  <path d="M87 106h19" stroke="#a5e4c9" stroke-width="4" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Auralis Iris</title>
+  <desc id="desc">Una hoja en un marco de escaneo iluminado en verde menta.</desc>
+  <defs>
+    <linearGradient id="tile" x2=".86" y2="1"><stop stop-color="#1D4B45"/><stop offset="1" stop-color="#0A1629"/></linearGradient>
+    <radialGradient id="glow" cx=".24" cy=".14" r=".9"><stop stop-color="#B5F6D8" stop-opacity=".29"/><stop offset="1" stop-color="#59CABB" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mint" x2=".85" y2="1"><stop stop-color="#C4FBE0"/><stop offset="1" stop-color="#62D2BF"/></linearGradient>
+    <linearGradient id="paper" x2=".7" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".56" stop-color="#EEF8F4"/><stop offset="1" stop-color="#C2D9DD"/></linearGradient>
+    <linearGradient id="fold" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#79BFB4"/></linearGradient>
+    <linearGradient id="beam"><stop stop-color="#6FE6C6" stop-opacity="0"/><stop offset=".14" stop-color="#83F1D2"/><stop offset=".5" stop-color="#DBFFEC"/><stop offset=".86" stop-color="#83F1D2"/><stop offset="1" stop-color="#6FE6C6" stop-opacity="0"/></linearGradient>
+    <filter id="shadow" x="-.28" y="-.25" width="1.56" height="1.6"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#061018" flood-opacity=".52"/></filter>
+    <clipPath id="tile-clip"><rect x="6" y="6" width="1012" height="1012" rx="228"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile-clip)">
+    <rect width="1024" height="1024" fill="url(#tile)"/>
+    <rect width="1024" height="1024" fill="url(#glow)"/>
+    <path d="M-74 298C172 68 392 374 663 179S1007 143 1100 56" fill="none" stroke="url(#mint)" stroke-width="102" opacity=".10"/>
+    <path d="M-63 272C172 84 396 337 659 161S1008 128 1090 44" fill="none" stroke="url(#mint)" stroke-width="14" opacity=".48"/>
+    <ellipse cx="512" cy="522" rx="368" ry="272" transform="rotate(-20 512 522)" fill="none" stroke="#9DEAD2" stroke-width="4" opacity=".18"/>
+    <path d="M145 886Q512 830 879 886" fill="none" stroke="#B5F6D8" stroke-width="3" opacity=".24"/>
+    <g filter="url(#shadow)">
+      <rect x="299" y="265" width="400" height="523" rx="35" transform="rotate(-11 499 526)" fill="#5BAE9A" opacity=".76"/>
+      <path d="M323 246Q323 210 359 210H580L705 335V748Q705 785 668 785H359Q323 785 323 748Z" fill="url(#paper)"/>
+      <path d="M580 210V297Q580 335 618 335H705Z" fill="url(#fold)"/>
+      <path d="M347 249V748Q347 761 362 761H658" fill="none" stroke="#FFFFFF" stroke-width="6" opacity=".78"/>
+      <path d="M390 396H559M390 455H622M390 595H622M390 655H555" fill="none" stroke="#729C9D" stroke-width="15" stroke-linecap="round"/>
+    </g>
+    <path d="M225 367V284Q225 257 252 257H319M706 257H773Q800 257 800 284V367M800 663V746Q800 773 773 773H706M319 773H252Q225 773 225 746V663" fill="none" stroke="url(#mint)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M186 524H838" fill="none" stroke="url(#beam)" stroke-width="62" opacity=".22"/>
+    <path d="M186 524H838" fill="none" stroke="url(#beam)" stroke-width="19"/>
+    <rect x="17" y="17" width="990" height="990" rx="218" fill="none" stroke="#B5F6D8" stroke-width="3" opacity=".27"/>
+    <circle cx="846" cy="841" r="8" fill="#B5F6D8"/><circle cx="874" cy="841" r="4" fill="#62D2BF" opacity=".75"/>
+  </g>
 </svg>

@@ -291,6 +291,7 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 .prisma-family[data-project="iris"] { --accent: #a5e4c9; --accent-rgb: 165,228,201; }
 .iris-stage { display: grid; place-items: center; }
 .iris-stage img { filter: drop-shadow(0 14px 22px #081d18aa); }
+.iris-links { display: flex; flex: 1 1 100%; flex-wrap: wrap; gap: 8px; }
 .prisma-family h2 span { color: var(--accent); }
 .prisma-family-scene { background: radial-gradient(ellipse at 50% 50%, rgba(var(--accent-rgb), .15), transparent 75%), #151a26; }
 .prisma-family-scene::before { position: absolute; inset: 0; content: ""; background-image: linear-gradient(#ffffff04 1px,transparent 1px),linear-gradient(90deg,#ffffff04 1px,transparent 1px); background-size: 32px 32px; mask-image: radial-gradient(ellipse,black,transparent 75%); }
