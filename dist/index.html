@@ -13,8 +13,8 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20261009-2">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./styles.css?v=20261020-strategy-games-1">
-  <script src="./animations.js?v=20261010-1" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261108-documentos-beta-1">
+  <script src="./animations.js?v=20261108-documentos-beta-1" defer></script>
   <script src="./pwa.js?v=20261010-1" defer></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
   <header class="site-header shell">
     <a class="brand" href="./" aria-label="Inicio — Proyectos de Oscar"><img class="brand-mark" src="./favicon.svg?v=20261009-2" width="48" height="48" alt=""><span>Proyectos de <strong>Oscar</strong></span></a>
     <div class="header-actions">
-      <a class="collection-link" href="#proyectos">Colección</a>
+      <a class="collection-link" href="#coleccion">Colección</a>
       <button class="install-button" id="install-button" type="button" aria-label="Instalar Proyectos de Oscar" title="Instalar Proyectos de Oscar" hidden>
         <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v11m-4-4 4 4 4-4M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>Instalar</span>
@@ -53,18 +53,166 @@
   <main class="shell">
     <section class="intro" aria-labelledby="titulo-principal">
       <div><span class="intro-eyebrow">OSCARD0823 / PORTFOLIO</span><h1 id="titulo-principal">Proyectos<span class="title-dot" aria-hidden="true">.</span></h1></div>
-      <div class="collection-count" aria-label="15 proyectos"><span class="count-line" aria-hidden="true"></span><span class="count-value">15</span><span class="count-caption">PROYECTOS</span></div>
+      <div class="collection-count" aria-label="17 proyectos en total"><span class="count-line" aria-hidden="true"></span><span class="count-value">17</span><span class="count-caption">EN TOTAL</span></div>
     </section>
-    <div class="collection-toolbar">
-      <div class="project-filters" role="group" aria-label="Filtrar proyectos" hidden>
-        <button class="filter-button" type="button" data-filter="all" aria-pressed="true"><svg aria-hidden="true"><use href="#grid-icon"/></svg>Todos<span>6</span></button>
-        <button class="filter-button" type="button" data-filter="documentos" aria-pressed="false" title="PDF y herramientas de documentos"><svg aria-hidden="true"><use href="#document-icon"/></svg>Documentos<span>1</span></button>
-        <button class="filter-button" type="button" data-filter="sorteos" aria-pressed="false"><svg aria-hidden="true"><use href="#ticket-icon"/></svg>Sorteos<span>1</span></button>
-        <button class="filter-button" type="button" data-filter="utilidades" aria-pressed="false"><svg aria-hidden="true"><use href="#utility-icon"/></svg>Utilidades<span>1</span></button>
-        <button class="filter-button" type="button" data-filter="juegos" aria-pressed="false"><svg aria-hidden="true"><use href="#game-icon"/></svg>Juegos<span>1</span></button>
-        <button class="filter-button" type="button" data-filter="modding" aria-pressed="false"><svg aria-hidden="true"><use href="#code-icon"/></svg>Modding<span>2</span></button>
+    <section id="documentos-beta" aria-labelledby="titulo-documentos-beta" tabindex="-1">
+      <div class="collection-toolbar">
+        <h2 id="titulo-documentos-beta">Documentos en beta</h2>
+        <a class="filter-button collection-view-link" href="#coleccion"><svg aria-hidden="true"><use href="#grid-icon"/></svg>Volver a la colección</a>
       </div>
-      <span class="collection-label">COLECCIÓN</span><output id="results-count" aria-live="polite" aria-atomic="true">17 proyectos</output>
+      <div class="project-grid">
+        <article class="project-card prisma-family" data-project="prisma-hub" data-category="documentos">
+          <a class="card-scene prisma-family-scene hub-scene" href="https://oscard0823.github.io/auralis/" aria-label="Abrir Auralis desde la imagen">
+            <div class="scene-caption"><span class="project-number">04</span><span>Auralis</span></div>
+            <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
+            <div class="prisma-stage hub-stage">
+              <svg class="hub-connections" viewBox="0 0 276 198" fill="none"><g stroke="currentColor" stroke-width="1.5"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g><g class="hub-flow" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g></svg>
+              <div class="hub-node hub-node-pdf" style="--slot:0"><img src="./assets/pdf-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-node hub-node-writer" style="--slot:1"><img src="./assets/writer-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-node hub-node-sheets" style="--slot:2"><img src="./assets/sheets-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-node hub-node-slides" style="--slot:3"><img src="./assets/slides-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-node hub-node-data" style="--slot:4"><img src="./assets/data-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-node hub-node-publisher" style="--slot:5"><img src="./assets/publisher-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
+              <div class="hub-core"><img src="./assets/prisma-logo.svg" width="68" height="68" alt="" loading="lazy"></div>
+              <div class="hub-library"><svg viewBox="0 0 16 16"><path d="M2 5h5l2-2h5v10H2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>BIBLIOTECA</div>
+            </div>
+            <div class="scene-label">UN UNIVERSO PARA CREAR · BETA</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/prisma-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis</h2><span class="asteoria-beta">BETA</span></div>
+            <p>Tu espacio de trabajo con las ocho herramientas y una biblioteca local.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis/" aria-label="Abrir Auralis">Abrir Auralis<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+        <article class="project-card prisma-family" data-project="writer" data-category="documentos">
+          <a class="card-scene prisma-family-scene writer-scene" href="https://oscard0823.github.io/auralis-scribe/" aria-label="Abrir Auralis Scribe desde la imagen">
+            <div class="scene-caption"><span class="project-number">05</span><span>Auralis SCRIBE</span></div>
+            <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
+            <div class="prisma-stage writer-stage">
+              <div class="writer-paper-back"></div>
+              <div class="writer-paper">
+                <div class="writer-heading"><b>Aa</b><span></span></div>
+                <div class="writer-rule"></div>
+                <div class="writer-line"><span style="--step:0"></span></div>
+                <div class="writer-line"><span style="--step:1"></span></div>
+                <div class="writer-line writer-line-short"><span style="--step:2"></span></div>
+                <div class="writer-paragraph-gap"></div>
+                <div class="writer-line"><span style="--step:3"></span></div>
+                <div class="writer-line writer-line-last"><span style="--step:4"></span><i class="writer-caret"></i></div>
+                <div class="writer-footer-rule"></div>
+              </div>
+              <div class="prisma-tool-strip writer-tools"><span>A</span><svg viewBox="0 0 20 20"><path d="M4 5h12M4 9h9M4 13h12M4 17h7"/></svg><svg viewBox="0 0 20 20"><path d="M8 5h8M8 10h8M8 15h8M4 5h.1M4 10h.1M4 15h.1"/></svg></div>
+              <svg class="writer-pen" viewBox="0 0 48 48"><path d="m10 32 23-23 7 7-23 23-10 3Z" fill="#d4eee7" stroke="#32665c" stroke-width="1.5"/><path d="m28 14 7 7M10 32l7 7-10 3Z" fill="#519b88" stroke="#32665c" stroke-width="1.5"/></svg>
+              <img class="prisma-scene-logo" src="./assets/writer-logo.svg" width="48" height="48" alt="" loading="lazy">
+            </div>
+            <div class="scene-label">ESCRITURA · ESTILOS · DOCUMENTOS</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/writer-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Scribe</h2><span class="asteoria-beta">BETA</span></div>
+            <p>Escribe documentos, usa plantillas y exporta a DOCX, PDF y otros formatos.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-scribe/" aria-label="Abrir Auralis SCRIBE">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+        <article class="project-card prisma-family" data-project="sheets" data-category="documentos">
+          <a class="card-scene prisma-family-scene sheets-scene" href="https://oscard0823.github.io/auralis-orbit/" aria-label="Abrir Auralis Orbit desde la imagen">
+            <div class="scene-caption"><span class="project-number">06</span><span>Auralis ORBIT</span></div>
+            <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
+            <div class="prisma-stage sheets-stage">
+              <div class="sheet-workbook">
+                <div class="sheet-window-bar"><i></i><i></i><i></i><span>LIBRO</span></div>
+                <div class="sheet-formula"><b>fx</b><span>=SUMA(B1:B3)</span></div>
+                <div class="sheet-grid">
+                  <b></b><b>A</b><b>B</b><b>C</b>
+                  <b>1</b><span>Ene</span><span>12</span><span class="sheet-status">✓</span>
+                  <b>2</b><span>Feb</span><span>18</span><span class="sheet-status">✓</span>
+                  <b>3</b><span>Mar</span><span>24</span><span class="sheet-status">✓</span>
+                  <b>4</b><span>Total</span><span class="sheet-result">54</span><span class="sheet-status">✓</span>
+                  <div class="sheet-selection"><i></i></div>
+                </div>
+              </div>
+              <div class="sheet-sum-chip">∑<span>54</span></div>
+              <img class="prisma-scene-logo" src="./assets/sheets-logo.svg" width="48" height="48" alt="" loading="lazy">
+            </div>
+            <div class="scene-label">CELDAS · FÓRMULAS · CÁLCULOS</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/sheets-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Orbit</h2><span class="asteoria-beta">BETA</span></div>
+            <p>Organiza datos, calcula con fórmulas y comparte libros XLSX.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-orbit/" aria-label="Abrir Auralis ORBIT">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+        <article class="project-card prisma-family" data-project="slides" data-category="documentos">
+          <a class="card-scene prisma-family-scene slides-scene" href="https://oscard0823.github.io/auralis-nova/" aria-label="Abrir Auralis Nova desde la imagen">
+            <div class="scene-caption"><span class="project-number">07</span><span>Auralis NOVA</span></div>
+            <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
+            <div class="prisma-stage slides-stage">
+              <div class="slides-back"></div>
+              <div class="slide-screen">
+                <div class="slide-panel slide-cover" style="--frame-delay:0s"><div class="slide-heading"></div><div class="slide-copy"></div><svg viewBox="0 0 90 70"><circle cx="56" cy="22" r="17" fill="#e4c4f4"/><path d="m3 65 29-38 20 25 14-20 22 33Z" fill="#ad83d7"/><path d="m3 65 29-38 20 25-15 13Z" fill="#8656b3"/></svg><span>01</span></div>
+                <div class="slide-panel slide-layout" style="--frame-delay:-6s"><div class="slide-heading"></div><div class="slide-layout-columns"><i></i><i></i><i></i></div><div class="slide-copy"></div><span>02</span></div>
+                <div class="slide-panel slide-summary" style="--frame-delay:-3s"><div class="slide-heading"></div><div class="slide-summary-lines"><i></i><i></i><i></i></div><div class="slide-summary-shape"></div><span>03</span></div>
+              </div>
+              <div class="slide-thumbnails"><i style="--frame-delay:0s"></i><i style="--frame-delay:-6s"></i><i style="--frame-delay:-3s"></i></div>
+              <div class="slide-progress"><span></span></div>
+              <img class="prisma-scene-logo" src="./assets/slides-logo.svg" width="48" height="48" alt="" loading="lazy">
+            </div>
+            <div class="scene-label">DIAPOSITIVAS · DISEÑOS · PRESENTACIÓN</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/slides-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Nova</h2><span class="asteoria-beta">BETA</span></div>
+            <p>Prepara presentaciones con plantillas, diseños, notas, texto e imágenes.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-nova/" aria-label="Abrir Auralis NOVA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+        <article class="project-card prisma-family" data-project="data" data-category="documentos">
+          <a class="card-scene prisma-family-scene data-scene" href="https://oscard0823.github.io/auralis-nexus/" aria-label="Abrir Auralis Nexus desde la imagen">
+            <div class="scene-caption"><span class="project-number">08</span><span>Auralis NEXUS</span></div>
+            <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
+            <div class="prisma-stage data-stage">
+              <svg class="data-relations" viewBox="0 0 276 198" fill="none"><path d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="#dd87b2" stroke-opacity=".25" stroke-width="1.5"/><path class="data-flow" d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="currentColor" stroke-width="2" stroke-dasharray="4 10"/><g fill="currentColor"><circle cx="120" cy="62" r="3"/><circle cx="156" cy="96" r="3"/></g></svg>
+              <div class="data-table data-table-primary"><div class="data-table-title">CLIENTES<span>⋮</span></div><div class="data-field"><b>id</b><i>PK</i></div><div class="data-field"><span>nombre</span><em>abc</em></div><div class="data-field"><span>ciudad</span><em>abc</em></div></div>
+              <div class="data-table data-table-related"><div class="data-table-title">PEDIDOS<span>⋮</span></div><div class="data-field"><b>cliente_id</b><i>FK</i></div><div class="data-field"><span>importe</span><em>123</em></div><div class="data-field"><span>fecha</span><em>date</em></div></div>
+              <div class="data-query"><b>SELECT · JOIN</b><div><i style="--row:0"></i><i style="--row:1"></i><i style="--row:2"></i></div><span>✓</span></div>
+              <img class="prisma-scene-logo" src="./assets/data-logo.svg" width="48" height="48" alt="" loading="lazy">
+            </div>
+            <div class="scene-label">TABLAS · RELACIONES · CONSULTAS</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/data-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Nexus</h2><span class="asteoria-beta">BETA</span></div>
+            <p>Explora todos tus registros, diseña consultas visuales, guarda parámetros y analiza tus bases con gráficos y diagnósticos locales.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-nexus/" aria-label="Abrir Auralis NEXUS">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+        <article class="project-card prisma-family lore-card" data-project="stories" data-category="documentos"><a class="card-scene lore-scene" href="https://oscard0823.github.io/auralis-lore/" aria-label="Abrir Auralis Lore BETA desde la imagen"><div class="scene-caption"><span class="project-number">LORE</span><span>Auralis · BETA</span></div><div class="lore-portal-orbit"></div><img class="lore-portal-logo" src="./assets/stories-logo.svg" width="130" height="130" alt="" loading="lazy"><div class="lore-portal-family"><span>PERSONAJES</span><i></i><span>FAMILIAS</span><i></i><span>HISTORIAS</span></div><div class="scene-label">ESCRIBE · CONECTA PERSONAJES · CREA AUDIOLIBROS</div></a><div class="card-content"><div class="title-row prisma-title"><img src="./assets/stories-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Lore</h2><span class="asteoria-beta">BETA</span></div><p>Escribe novelas y fanfics, conecta personajes y familias, y crea audiolibros con 30 voces neuronales. Corrector en once idiomas y asistente de IA local experimental, con tus textos guardados en el dispositivo.</p><div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-lore/" aria-label="Abrir Auralis Lore BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div></div></article>
+        <article class="project-card prisma-family atlas-card" data-project="architecture" data-category="documentos">
+          <a class="card-scene atlas-scene" href="https://oscard0823.github.io/auralis-atlas/" aria-label="Abrir Auralis Atlas BETA desde la imagen">
+            <img class="atlas-preview" src="./assets/architecture-preview.svg" width="1000" height="600" alt="Casa con mobiliario y medidas en perspectiva 3D" loading="lazy">
+            <div class="scene-caption"><span class="project-number">ATLAS</span><span>Auralis · BETA</span></div>
+            <img class="atlas-card-mark" src="./assets/architecture-logo.svg" width="66" height="66" alt="" loading="lazy">
+            <div class="scene-label">PLANOS · TERRENOS · RECORRIDOS 3D</div>
+          </a>
+          <div class="card-content">
+            <div class="title-row prisma-title"><img src="./assets/architecture-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis <span>Atlas</span></h2><span class="atlas-beta">BETA</span></div>
+            <p>Diseña sobre tu lote, importa planos, distribuye muebles y recorre tus espacios. Una nueva luz para tus ideas.</p>
+            <div class="card-bottom"><span class="platform">WEB + PC · CAD Y ARQUITECTURA</span><a class="project-link" href="https://oscard0823.github.io/auralis-atlas/" aria-label="Abrir Auralis Atlas BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="collection-toolbar" id="coleccion" tabindex="-1">
+      <div class="collection-controls">
+        <div class="project-filters" role="group" aria-label="Filtrar proyectos" hidden>
+          <button class="filter-button" type="button" data-filter="all" aria-pressed="true"><svg aria-hidden="true"><use href="#grid-icon"/></svg>Todos<span>10</span></button>
+          <button class="filter-button" type="button" data-filter="documentos" aria-pressed="false" title="PDF y diseño editorial"><svg aria-hidden="true"><use href="#document-icon"/></svg>Documentos<span>2</span></button>
+          <button class="filter-button" type="button" data-filter="sorteos" aria-pressed="false"><svg aria-hidden="true"><use href="#ticket-icon"/></svg>Sorteos<span>1</span></button>
+          <button class="filter-button" type="button" data-filter="utilidades" aria-pressed="false"><svg aria-hidden="true"><use href="#utility-icon"/></svg>Utilidades<span>1</span></button>
+          <button class="filter-button" type="button" data-filter="juegos" aria-pressed="false"><svg aria-hidden="true"><use href="#game-icon"/></svg>Juegos<span>4</span></button>
+          <button class="filter-button" type="button" data-filter="modding" aria-pressed="false"><svg aria-hidden="true"><use href="#code-icon"/></svg>Modding<span>2</span></button>
+        </div>
+        <span class="collection-label">COLECCIÓN</span>
+        <a class="filter-button collection-view-link" href="#documentos-beta"><svg aria-hidden="true"><use href="#document-icon"/></svg>Documentos en beta</a>
+      </div>
+      <output id="results-count" aria-live="polite" aria-atomic="true">10 proyectos</output>
     </div>
     <section id="proyectos" class="project-grid" aria-label="Proyectos disponibles">
       <article class="project-card fortuna" data-project="fortuna" data-category="sorteos">
@@ -122,128 +270,6 @@
           <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-folio/" aria-label="Abrir Auralis Folio BETA">Abrir editor<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
-      <article class="project-card prisma-family" data-project="prisma-hub" data-category="documentos">
-        <a class="card-scene prisma-family-scene hub-scene" href="https://oscard0823.github.io/auralis/" aria-label="Abrir Auralis desde la imagen">
-          <div class="scene-caption"><span class="project-number">04</span><span>Auralis</span></div>
-          <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-          <div class="prisma-stage hub-stage">
-            <svg class="hub-connections" viewBox="0 0 276 198" fill="none"><g stroke="currentColor" stroke-width="1.5"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g><g class="hub-flow" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10"><path d="M138 101 62 27M138 101 216 27M138 101 26 101M138 101 252 101M138 101 216 170M138 101 62 170"/></g></svg>
-            <div class="hub-node hub-node-pdf" style="--slot:0"><img src="./assets/pdf-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-node hub-node-writer" style="--slot:1"><img src="./assets/writer-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-node hub-node-sheets" style="--slot:2"><img src="./assets/sheets-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-node hub-node-slides" style="--slot:3"><img src="./assets/slides-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-node hub-node-data" style="--slot:4"><img src="./assets/data-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-node hub-node-publisher" style="--slot:5"><img src="./assets/publisher-logo.svg" width="40" height="40" alt="" loading="lazy"></div>
-            <div class="hub-core"><img src="./assets/prisma-logo.svg" width="68" height="68" alt="" loading="lazy"></div>
-            <div class="hub-library"><svg viewBox="0 0 16 16"><path d="M2 5h5l2-2h5v10H2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>BIBLIOTECA</div>
-          </div>
-          <div class="scene-label">UN UNIVERSO PARA CREAR · BETA</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/prisma-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis</h2><span class="asteoria-beta">BETA</span></div>
-          <p>Tu espacio de trabajo con las ocho herramientas y una biblioteca local.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis/" aria-label="Abrir Auralis">Abrir Auralis<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
-      <article class="project-card prisma-family" data-project="writer" data-category="documentos">
-        <a class="card-scene prisma-family-scene writer-scene" href="https://oscard0823.github.io/auralis-scribe/" aria-label="Abrir Auralis Scribe desde la imagen">
-          <div class="scene-caption"><span class="project-number">05</span><span>Auralis SCRIBE</span></div>
-          <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-          <div class="prisma-stage writer-stage">
-            <div class="writer-paper-back"></div>
-            <div class="writer-paper">
-              <div class="writer-heading"><b>Aa</b><span></span></div>
-              <div class="writer-rule"></div>
-              <div class="writer-line"><span style="--step:0"></span></div>
-              <div class="writer-line"><span style="--step:1"></span></div>
-              <div class="writer-line writer-line-short"><span style="--step:2"></span></div>
-              <div class="writer-paragraph-gap"></div>
-              <div class="writer-line"><span style="--step:3"></span></div>
-              <div class="writer-line writer-line-last"><span style="--step:4"></span><i class="writer-caret"></i></div>
-              <div class="writer-footer-rule"></div>
-            </div>
-            <div class="prisma-tool-strip writer-tools"><span>A</span><svg viewBox="0 0 20 20"><path d="M4 5h12M4 9h9M4 13h12M4 17h7"/></svg><svg viewBox="0 0 20 20"><path d="M8 5h8M8 10h8M8 15h8M4 5h.1M4 10h.1M4 15h.1"/></svg></div>
-            <svg class="writer-pen" viewBox="0 0 48 48"><path d="m10 32 23-23 7 7-23 23-10 3Z" fill="#d4eee7" stroke="#32665c" stroke-width="1.5"/><path d="m28 14 7 7M10 32l7 7-10 3Z" fill="#519b88" stroke="#32665c" stroke-width="1.5"/></svg>
-            <img class="prisma-scene-logo" src="./assets/writer-logo.svg" width="48" height="48" alt="" loading="lazy">
-          </div>
-          <div class="scene-label">ESCRITURA · ESTILOS · DOCUMENTOS</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/writer-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Scribe</h2><span class="asteoria-beta">BETA</span></div>
-          <p>Escribe documentos, usa plantillas y exporta a DOCX, PDF y otros formatos.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-scribe/" aria-label="Abrir Auralis SCRIBE">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
-      <article class="project-card prisma-family" data-project="sheets" data-category="documentos">
-        <a class="card-scene prisma-family-scene sheets-scene" href="https://oscard0823.github.io/auralis-orbit/" aria-label="Abrir Auralis Orbit desde la imagen">
-          <div class="scene-caption"><span class="project-number">06</span><span>Auralis ORBIT</span></div>
-          <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-          <div class="prisma-stage sheets-stage">
-            <div class="sheet-workbook">
-              <div class="sheet-window-bar"><i></i><i></i><i></i><span>LIBRO</span></div>
-              <div class="sheet-formula"><b>fx</b><span>=SUMA(B1:B3)</span></div>
-              <div class="sheet-grid">
-                <b></b><b>A</b><b>B</b><b>C</b>
-                <b>1</b><span>Ene</span><span>12</span><span class="sheet-status">✓</span>
-                <b>2</b><span>Feb</span><span>18</span><span class="sheet-status">✓</span>
-                <b>3</b><span>Mar</span><span>24</span><span class="sheet-status">✓</span>
-                <b>4</b><span>Total</span><span class="sheet-result">54</span><span class="sheet-status">✓</span>
-                <div class="sheet-selection"><i></i></div>
-              </div>
-            </div>
-            <div class="sheet-sum-chip">∑<span>54</span></div>
-            <img class="prisma-scene-logo" src="./assets/sheets-logo.svg" width="48" height="48" alt="" loading="lazy">
-          </div>
-          <div class="scene-label">CELDAS · FÓRMULAS · CÁLCULOS</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/sheets-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Orbit</h2><span class="asteoria-beta">BETA</span></div>
-          <p>Organiza datos, calcula con fórmulas y comparte libros XLSX.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-orbit/" aria-label="Abrir Auralis ORBIT">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
-      <article class="project-card prisma-family" data-project="slides" data-category="documentos">
-        <a class="card-scene prisma-family-scene slides-scene" href="https://oscard0823.github.io/auralis-nova/" aria-label="Abrir Auralis Nova desde la imagen">
-          <div class="scene-caption"><span class="project-number">07</span><span>Auralis NOVA</span></div>
-          <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-          <div class="prisma-stage slides-stage">
-            <div class="slides-back"></div>
-            <div class="slide-screen">
-              <div class="slide-panel slide-cover" style="--frame-delay:0s"><div class="slide-heading"></div><div class="slide-copy"></div><svg viewBox="0 0 90 70"><circle cx="56" cy="22" r="17" fill="#e4c4f4"/><path d="m3 65 29-38 20 25 14-20 22 33Z" fill="#ad83d7"/><path d="m3 65 29-38 20 25-15 13Z" fill="#8656b3"/></svg><span>01</span></div>
-              <div class="slide-panel slide-layout" style="--frame-delay:-6s"><div class="slide-heading"></div><div class="slide-layout-columns"><i></i><i></i><i></i></div><div class="slide-copy"></div><span>02</span></div>
-              <div class="slide-panel slide-summary" style="--frame-delay:-3s"><div class="slide-heading"></div><div class="slide-summary-lines"><i></i><i></i><i></i></div><div class="slide-summary-shape"></div><span>03</span></div>
-            </div>
-            <div class="slide-thumbnails"><i style="--frame-delay:0s"></i><i style="--frame-delay:-6s"></i><i style="--frame-delay:-3s"></i></div>
-            <div class="slide-progress"><span></span></div>
-            <img class="prisma-scene-logo" src="./assets/slides-logo.svg" width="48" height="48" alt="" loading="lazy">
-          </div>
-          <div class="scene-label">DIAPOSITIVAS · DISEÑOS · PRESENTACIÓN</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/slides-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Nova</h2><span class="asteoria-beta">BETA</span></div>
-          <p>Prepara presentaciones con plantillas, diseños, notas, texto e imágenes.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-nova/" aria-label="Abrir Auralis NOVA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
-      <article class="project-card prisma-family" data-project="data" data-category="documentos">
-        <a class="card-scene prisma-family-scene data-scene" href="https://oscard0823.github.io/auralis-nexus/" aria-label="Abrir Auralis Nexus desde la imagen">
-          <div class="scene-caption"><span class="project-number">08</span><span>Auralis NEXUS</span></div>
-          <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-          <div class="prisma-stage data-stage">
-            <svg class="data-relations" viewBox="0 0 276 198" fill="none"><path d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="#dd87b2" stroke-opacity=".25" stroke-width="1.5"/><path class="data-flow" d="M120 62h20v34h16M68 107v43h70m70-19v19h-70" stroke="currentColor" stroke-width="2" stroke-dasharray="4 10"/><g fill="currentColor"><circle cx="120" cy="62" r="3"/><circle cx="156" cy="96" r="3"/></g></svg>
-            <div class="data-table data-table-primary"><div class="data-table-title">CLIENTES<span>⋮</span></div><div class="data-field"><b>id</b><i>PK</i></div><div class="data-field"><span>nombre</span><em>abc</em></div><div class="data-field"><span>ciudad</span><em>abc</em></div></div>
-            <div class="data-table data-table-related"><div class="data-table-title">PEDIDOS<span>⋮</span></div><div class="data-field"><b>cliente_id</b><i>FK</i></div><div class="data-field"><span>importe</span><em>123</em></div><div class="data-field"><span>fecha</span><em>date</em></div></div>
-            <div class="data-query"><b>SELECT · JOIN</b><div><i style="--row:0"></i><i style="--row:1"></i><i style="--row:2"></i></div><span>✓</span></div>
-            <img class="prisma-scene-logo" src="./assets/data-logo.svg" width="48" height="48" alt="" loading="lazy">
-          </div>
-          <div class="scene-label">TABLAS · RELACIONES · CONSULTAS</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/data-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Nexus</h2><span class="asteoria-beta">BETA</span></div>
-          <p>Explora todos tus registros, diseña consultas visuales, guarda parámetros y analiza tus bases con gráficos y diagnósticos locales.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-nexus/" aria-label="Abrir Auralis NEXUS">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
       <article class="project-card prisma-family" data-project="publisher" data-category="documentos">
         <a class="card-scene prisma-family-scene publisher-scene" href="https://oscard0823.github.io/auralis-canvas/" aria-label="Abrir Auralis Canvas desde la imagen">
           <div class="scene-caption"><span class="project-number">09</span><span>Auralis CANVAS</span></div>
@@ -268,20 +294,6 @@
           <div class="title-row prisma-title"><img src="./assets/publisher-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Canvas</h2><span class="asteoria-beta">BETA</span></div>
           <p>Diseña carteles, boletines, folletos e invitaciones para imprimir.</p>
           <div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-canvas/" aria-label="Abrir Auralis CANVAS">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
-        </div>
-      </article>
-      <article class="project-card prisma-family lore-card" data-project="stories" data-category="documentos"><a class="card-scene lore-scene" href="https://oscard0823.github.io/auralis-lore/" aria-label="Abrir Auralis Lore BETA desde la imagen"><div class="scene-caption"><span class="project-number">LORE</span><span>Auralis · BETA</span></div><div class="lore-portal-orbit"></div><img class="lore-portal-logo" src="./assets/stories-logo.svg" width="130" height="130" alt="" loading="lazy"><div class="lore-portal-family"><span>PERSONAJES</span><i></i><span>FAMILIAS</span><i></i><span>HISTORIAS</span></div><div class="scene-label">ESCRIBE · CONECTA PERSONAJES · CREA AUDIOLIBROS</div></a><div class="card-content"><div class="title-row prisma-title"><img src="./assets/stories-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis Lore</h2><span class="asteoria-beta">BETA</span></div><p>Escribe novelas y fanfics, conecta personajes y familias, y crea audiolibros con 30 voces neuronales. Corrector en once idiomas y asistente de IA local experimental, con tus textos guardados en el dispositivo.</p><div class="card-bottom"><span class="platform">WEB + PC + ANDROID</span><a class="project-link" href="https://oscard0823.github.io/auralis-lore/" aria-label="Abrir Auralis Lore BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div></div></article>
-      <article class="project-card prisma-family atlas-card" data-project="architecture" data-category="documentos">
-        <a class="card-scene atlas-scene" href="https://oscard0823.github.io/auralis-atlas/" aria-label="Abrir Auralis Atlas BETA desde la imagen">
-          <img class="atlas-preview" src="./assets/architecture-preview.svg" width="1000" height="600" alt="Casa con mobiliario y medidas en perspectiva 3D" loading="lazy">
-          <div class="scene-caption"><span class="project-number">ATLAS</span><span>Auralis · BETA</span></div>
-          <img class="atlas-card-mark" src="./assets/architecture-logo.svg" width="66" height="66" alt="" loading="lazy">
-          <div class="scene-label">PLANOS · TERRENOS · RECORRIDOS 3D</div>
-        </a>
-        <div class="card-content">
-          <div class="title-row prisma-title"><img src="./assets/architecture-logo.svg" width="42" height="42" alt="" loading="lazy"><h2>Auralis <span>Atlas</span></h2><span class="atlas-beta">BETA</span></div>
-          <p>Diseña sobre tu lote, importa planos, distribuye muebles y recorre tus espacios. Una nueva luz para tus ideas.</p>
-          <div class="card-bottom"><span class="platform">WEB + PC · CAD Y ARQUITECTURA</span><a class="project-link" href="https://oscard0823.github.io/auralis-atlas/" aria-label="Abrir Auralis Atlas BETA">Abrir aplicación<svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
       </article>
       <article class="project-card snow" data-project="snow" data-category="modding">

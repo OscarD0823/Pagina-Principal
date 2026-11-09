@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261021-wars-expeditions-7`;
+const cacheName = `${cachePrefix}20261108-documentos-beta-1`;
 const assetPaths = [
   'index.html',
   'assets/stories-logo.svg',
@@ -74,8 +74,9 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== scopeURL.origin || !url.pathname.startsWith(scopeURL.pathname)) return;
 
-  // Versioned CSS/JS and unversioned precache entries refer to the same asset.
+  // Query versions and view fragments do not identify a different cached resource.
   url.search = '';
+  url.hash = '';
   const isHome = url.href === scopeURL.href || url.href === indexURL;
   if (event.request.mode === 'navigate' && isHome) {
     event.respondWith(networkWithCache(event.request, indexURL));

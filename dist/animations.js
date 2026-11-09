@@ -25,13 +25,14 @@ reducedMotion.addEventListener('change', () => { isPaused = reducedMotion.matche
 updateMotion();
 
 const cards = [...document.querySelectorAll('.project-card')];
-const filterButtons = [...document.querySelectorAll('.filter-button')];
+const collectionCards = [...document.querySelectorAll('#proyectos .project-card')];
 const filters = document.querySelector('.project-filters');
+const filterButtons = [...filters.querySelectorAll('.filter-button')];
 const resultsCount = document.querySelector('#results-count');
 
 function filterProjects(category) {
   let count = 0;
-  for (const card of cards) {
+  for (const card of collectionCards) {
     card.hidden = category !== 'all' && card.dataset.category !== category;
     if (!card.hidden) count += 1;
   }
@@ -40,9 +41,10 @@ function filterProjects(category) {
 }
 for (const button of filterButtons) {
   const category = button.dataset.filter;
-  button.querySelector('span').textContent = String(cards.filter(card => category === 'all' || card.dataset.category === category).length);
+  button.querySelector('span').textContent = String(collectionCards.filter(card => category === 'all' || card.dataset.category === category).length);
   button.addEventListener('click', () => filterProjects(category));
 }
+filterProjects('all');
 filters.hidden = false;
 
 // A subtle pointer light is limited to devices with a precise pointing device.

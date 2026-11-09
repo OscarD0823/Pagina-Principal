@@ -30,9 +30,9 @@ Las rutas de recursos son relativas para funcionar bajo una ruta de proyecto o e
 
 Las animaciones se pueden pausar con el botón del encabezado; la preferencia se conserva localmente cuando el navegador permite almacenamiento. Respetan la preferencia de reducir movimiento y se detienen cuando una tarjeta está fuera de pantalla o la pestaña está oculta.
 
-Los filtros se activan con JavaScript. Sin JavaScript, todos los proyectos y enlaces siguen disponibles. La cuadrícula muestra tres columnas en escritorio grande, dos en tamaños intermedios y una en móvil.
+Los filtros se activan con JavaScript. Sin JavaScript, la colección y la vista Documentos en beta se abren desde sus enlaces. La cuadrícula muestra tres columnas en escritorio grande, dos en tamaños intermedios y una en móvil.
 
-Para añadir otra herramienta de documentos, usa `data-category="documentos"` en su tarjeta. Para herramientas personales como Lankdea, usa `utilidades`; para sorteos, `sorteos`. Los contadores de los filtros se calculan automáticamente a partir de las tarjetas. No se muestran tarjetas ficticias para futuros proyectos.
+Para añadir una herramienta a la colección de documentos, usa `data-category="documentos"` en su tarjeta dentro de la colección. Las tarjetas de Documentos en beta se añaden a la sección de esa vista. Para herramientas personales como Lankdea, usa `utilidades`; para sorteos, `sorteos`. Los contadores de los filtros se calculan automáticamente a partir de las tarjetas. No se muestran tarjetas ficticias para futuros proyectos.
 
 Las tarjetas no muestran versiones de los programas para evitar mantenimiento con cada lanzamiento. Sus enlaces apuntan a las páginas o repositorios de cada proyecto.
 
@@ -50,7 +50,7 @@ El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-P
 
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
 
-Auralis y sus ocho herramientas se enlazan por separado desde Documentos. Auralis Folio dispone de su propia tarjeta y ruta; Auralis abre la aplicación general en /auralis/. Cada enlace web permanece en la misma pestaña.
+Auralis Canvas y Auralis Folio aparecen en la colección y en el filtro Documentos. El enlace **Documentos en beta** abre la vista de Auralis, Scribe, Orbit, Nova, Nexus, Lore y Atlas. Cada herramienta conserva su enlace directo.
 
 Cada tarjeta de la familia Auralis tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
 
