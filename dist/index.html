@@ -13,8 +13,8 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20261009-2">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./styles.css?v=20261109-iris-jpg">
-  <script src="./animations.js?v=20261109-iris-jpg" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261109-iris-familia">
+  <script src="./animations.js?v=20261109-iris-familia" defer></script>
   <script src="./pwa.js?v=20261010-1" defer></script>
 </head>
 <body>
@@ -214,7 +214,43 @@
           <a class="card-scene prisma-family-scene" href="https://oscard0823.github.io/auralis-iris/" aria-label="Abrir Auralis Iris BETA desde la imagen">
             <div class="scene-caption"><span class="project-number">IRIS</span><span>Auralis · BETA</span></div>
             <div class="prisma-scene-halo"></div><div class="prisma-scene-orbit"></div>
-            <div class="prisma-stage iris-stage"><img src="./assets/iris-logo.svg" width="142" height="142" alt="" loading="lazy"></div>
+            <div class="prisma-stage iris-stage">
+              <svg class="iris-artwork" viewBox="0 0 276 198" aria-hidden="true">
+                <defs>
+                  <linearGradient id="iris-paper-fill" x2="1" y2="1"><stop stop-color="#f7fdfa"/><stop offset="1" stop-color="#d4e9ec"/></linearGradient>
+                  <linearGradient id="iris-phone-edge" x2="1" y2="1"><stop stop-color="#a9ded2"/><stop offset=".38" stop-color="#5d9d9d"/><stop offset="1" stop-color="#2e526d"/></linearGradient>
+                  <linearGradient id="iris-camera-view" x2="1" y2="1"><stop stop-color="#244553"/><stop offset="1" stop-color="#132a3b"/></linearGradient>
+                </defs>
+                <g transform="rotate(-10 110 101)">
+                  <rect x="65" y="23" width="101" height="151" rx="8" fill="#73a2a5" transform="rotate(8 115 100)"/>
+                  <path d="M58 35Q58 27 66 27H124L148 51V163Q148 171 140 171H66Q58 171 58 163Z" fill="url(#iris-paper-fill)"/>
+                  <path d="M124 27V44Q124 51 131 51H148Z" fill="#a4cbd1"/>
+                  <path d="M71 61h37m-37 12h52m-52 65h53m-53 10h37" fill="none" stroke="#86a9b1" stroke-width="3" stroke-linecap="round"/>
+                  <rect x="71" y="87" width="59" height="37" rx="4" fill="#b9d9d8"/>
+                  <circle cx="112" cy="98" r="5" fill="#eaf7ef"/>
+                  <path d="m73 122 17-18 11 10 8-6 17 14Z" fill="#6bacae"/>
+                </g>
+                <g transform="rotate(8 174 100)">
+                  <rect x="134" y="13" width="80" height="172" rx="13" fill="url(#iris-phone-edge)" stroke="#b7e5df" stroke-width="1.5"/>
+                  <rect x="138" y="17" width="72" height="164" rx="10" fill="#152a38"/>
+                  <rect x="141" y="31" width="66" height="133" rx="6" fill="url(#iris-camera-view)"/>
+                  <path d="M164 24h20m-19 150h18" fill="none" stroke="#89afbc" stroke-width="2" stroke-linecap="round"/>
+                  <circle cx="150" cy="42" r="2.5" fill="#a0ebd1"/>
+                  <path d="M156 42h16" stroke="#7ca6af" stroke-width="2" stroke-linecap="round"/>
+                  <path d="m151 61 45-4 3 70-45 5Z" fill="#d9eeec"/>
+                  <path d="m158 72 26-2m-25 10 30-3m-29 12 22-2m-20 24 28-3m-27 10 20-2" fill="none" stroke="#719ea9" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M145 67V55h12m34 0h12v12m0 55v12h-12m-34 0h-12v-12" fill="none" stroke="#a0ebd1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="iris-scan-line" d="M146 94h56" fill="none" stroke="#5ad8b6" stroke-width="2.4" stroke-linecap="round"/>
+                  <circle cx="174" cy="149" r="7" fill="#d9f6ed" stroke="#70cdb7" stroke-width="2"/>
+                </g>
+              </svg>
+              <div class="prisma-tool-strip iris-tools" aria-hidden="true">
+                <svg viewBox="0 0 20 20"><path d="M3 6h4l1.5-2h3L13 6h4v10H3Z"/><circle cx="10" cy="11" r="2.5"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M3 7V3h4m6 0h4v4m0 6v4h-4m-6 0H3v-4M4 10h12"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M5 2h7l3 3v13H5ZM12 2v4h3M8 11h4m-4 3h4"/></svg>
+              </div>
+              <img class="prisma-scene-logo" src="./assets/iris-logo.svg" width="48" height="48" alt="" loading="lazy">
+            </div>
             <div class="scene-label">ESCANEO · JPG · PDF LIGERO</div>
           </a>
           <div class="card-content">

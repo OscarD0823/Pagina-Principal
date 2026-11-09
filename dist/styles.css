@@ -288,9 +288,10 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 .prisma-family[data-project="slides"] { --accent: #c9a9f4; --accent-rgb: 201,169,244; }
 .prisma-family[data-project="data"] { --accent: #f1a4c4; --accent-rgb: 241,164,196; }
 .prisma-family[data-project="publisher"] { --accent: #a0dde6; --accent-rgb: 160,221,230; }
-.prisma-family[data-project="iris"] { --accent: #a5e4c9; --accent-rgb: 165,228,201; }
-.iris-stage { display: grid; place-items: center; }
-.iris-stage img { filter: drop-shadow(0 14px 22px #081d18aa); }
+.prisma-family[data-project="iris"] { --accent: #a0ebd1; --accent-rgb: 160,235,209; }
+.iris-artwork { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 11px 12px #05131c6b); }
+.iris-tools { left: 18px; top: 73px; }
+.iris-scan-line { animation: iris-scan-sweep 8s ease-in-out infinite; }
 .iris-links { display: flex; flex: 1 1 100%; flex-wrap: wrap; gap: 8px; }
 .prisma-family h2 span { color: var(--accent); }
 .prisma-family-scene { background: radial-gradient(ellipse at 50% 50%, rgba(var(--accent-rgb), .15), transparent 75%), #151a26; }
@@ -446,6 +447,7 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 @keyframes publisher-art-align { 0%,100% { transform: scale(1.08) translateX(-3px); } 40%,85% { transform: scale(1) translateX(0); } }
 @keyframes publisher-selection-align { 0%,100% { transform: translate(-3px,2px); } 40%,85% { transform: translate(0,0); } }
 @keyframes publisher-cursor-align { 0%,100% { transform: translate(-3px,2px); } 40%,85% { transform: translate(6px,-10px); } }
+@keyframes iris-scan-sweep { 0%,100% { transform: translateY(-27px); opacity: .55; } 50% { transform: translateY(27px); opacity: 1; } }
 
 /* Asteoria Atlas */
 .atlas-card{--accent:#d9b47a;--accent-rgb:217,180,122}.atlas-scene{display:block;text-decoration:none;background:#101a26}.atlas-preview{width:100%;height:100%;object-fit:cover;transition:transform .8s}.atlas-scene:hover .atlas-preview{transform:scale(1.035)}.atlas-card-mark{position:absolute;right:24px;top:58px;border-radius:17px;box-shadow:0 10px 25px #0006}.atlas-beta{font-size:9px;letter-spacing:1px;padding:3px 7px;border:1px solid #b5966455;border-radius:5px;color:#dfc393;background:#b5966415}.atlas-scene:focus-visible{outline:3px solid #e7c994;outline-offset:-5px}

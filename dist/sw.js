@@ -1,6 +1,6 @@
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = `oscar-project-portal:${scopeURL.pathname}:`;
-const cacheName = `${cachePrefix}20261109-iris-jpg`;
+const cacheName = `${cachePrefix}20261109-iris-familia`;
 const assetPaths = [
   'index.html',
   'assets/iris-logo.svg',

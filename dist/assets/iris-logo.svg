@@ -1,34 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
-  <title id="title">Auralis Iris</title>
-  <desc id="desc">Una hoja en un marco de escaneo iluminado en verde menta.</desc>
-  <defs>
-    <linearGradient id="tile" x2=".86" y2="1"><stop stop-color="#1D4B45"/><stop offset="1" stop-color="#0A1629"/></linearGradient>
-    <radialGradient id="glow" cx=".24" cy=".14" r=".9"><stop stop-color="#B5F6D8" stop-opacity=".29"/><stop offset="1" stop-color="#59CABB" stop-opacity="0"/></radialGradient>
-    <linearGradient id="mint" x2=".85" y2="1"><stop stop-color="#C4FBE0"/><stop offset="1" stop-color="#62D2BF"/></linearGradient>
-    <linearGradient id="paper" x2=".7" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".56" stop-color="#EEF8F4"/><stop offset="1" stop-color="#C2D9DD"/></linearGradient>
-    <linearGradient id="fold" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#79BFB4"/></linearGradient>
-    <linearGradient id="beam"><stop stop-color="#6FE6C6" stop-opacity="0"/><stop offset=".14" stop-color="#83F1D2"/><stop offset=".5" stop-color="#DBFFEC"/><stop offset=".86" stop-color="#83F1D2"/><stop offset="1" stop-color="#6FE6C6" stop-opacity="0"/></linearGradient>
-    <filter id="shadow" x="-.28" y="-.25" width="1.56" height="1.6"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#061018" flood-opacity=".52"/></filter>
-    <clipPath id="tile-clip"><rect x="6" y="6" width="1012" height="1012" rx="228"/></clipPath>
-  </defs>
-  <g clip-path="url(#tile-clip)">
-    <rect width="1024" height="1024" fill="url(#tile)"/>
-    <rect width="1024" height="1024" fill="url(#glow)"/>
-    <path d="M-74 298C172 68 392 374 663 179S1007 143 1100 56" fill="none" stroke="url(#mint)" stroke-width="102" opacity=".10"/>
-    <path d="M-63 272C172 84 396 337 659 161S1008 128 1090 44" fill="none" stroke="url(#mint)" stroke-width="14" opacity=".48"/>
-    <ellipse cx="512" cy="522" rx="368" ry="272" transform="rotate(-20 512 522)" fill="none" stroke="#9DEAD2" stroke-width="4" opacity=".18"/>
-    <path d="M145 886Q512 830 879 886" fill="none" stroke="#B5F6D8" stroke-width="3" opacity=".24"/>
-    <g filter="url(#shadow)">
-      <rect x="299" y="265" width="400" height="523" rx="35" transform="rotate(-11 499 526)" fill="#5BAE9A" opacity=".76"/>
-      <path d="M323 246Q323 210 359 210H580L705 335V748Q705 785 668 785H359Q323 785 323 748Z" fill="url(#paper)"/>
-      <path d="M580 210V297Q580 335 618 335H705Z" fill="url(#fold)"/>
-      <path d="M347 249V748Q347 761 362 761H658" fill="none" stroke="#FFFFFF" stroke-width="6" opacity=".78"/>
-      <path d="M390 396H559M390 455H622M390 595H622M390 655H555" fill="none" stroke="#729C9D" stroke-width="15" stroke-linecap="round"/>
-    </g>
-    <path d="M225 367V284Q225 257 252 257H319M706 257H773Q800 257 800 284V367M800 663V746Q800 773 773 773H706M319 773H252Q225 773 225 746V663" fill="none" stroke="url(#mint)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M186 524H838" fill="none" stroke="url(#beam)" stroke-width="62" opacity=".22"/>
-    <path d="M186 524H838" fill="none" stroke="url(#beam)" stroke-width="19"/>
-    <rect x="17" y="17" width="990" height="990" rx="218" fill="none" stroke="#B5F6D8" stroke-width="3" opacity=".27"/>
-    <circle cx="846" cy="841" r="8" fill="#B5F6D8"/><circle cx="874" cy="841" r="4" fill="#62D2BF" opacity=".75"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc"><title id="title">Auralis Iris</title><desc id="desc">Emblema de Auralis Iris con una hoja, un marco de escaneo y una lente.</desc><defs>
+ <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183B49"/><stop offset="1" stop-color="#0A1629"/></linearGradient>
+ <radialGradient id="glow" cx=".22" cy=".1" r="1"><stop stop-color="#A0EBD1" stop-opacity=".3"/><stop offset="1" stop-color="#88B9EE" stop-opacity="0"/></radialGradient>
+ <linearGradient id="color" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#A0EBD1"/><stop offset="1" stop-color="#88B9EE"/></linearGradient>
+ <linearGradient id="paper" x2=".7" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#EEF4FD"/><stop offset="1" stop-color="#C7D5EA"/></linearGradient>
+ <linearGradient id="fold" x2="1" y2="1"><stop stop-color="#FFF"/><stop offset="1" stop-color="#88B9EE"/></linearGradient>
+ <linearGradient id="metal" x2="1" y2=".7"><stop stop-color="#A0EBD1"/><stop offset=".45" stop-color="#88B9EE"/><stop offset="1" stop-color="#183B49"/></linearGradient>
+ <filter id="shadow" x="-.3" y="-.25" width="1.6" height="1.6"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#020B19" flood-opacity=".45"/></filter>
+ <clipPath id="clip"><rect x="6" y="6" width="1012" height="1012" rx="228"/></clipPath></defs>
+ <g clip-path="url(#clip)"><rect width="1024" height="1024" rx="230" fill="url(#tile)"/><rect width="1024" height="1024" fill="url(#glow)"/>
+ <path d="M-90 310C148 68 397 383 666 176S1017 155 1110 64" stroke="url(#color)" stroke-width="105" opacity=".1" fill="none"/><path d="M-50 281C178 97 397 349 657 159S999 117 1095 32" stroke="url(#color)" stroke-width="15" opacity=".5" fill="none"/>
+ <path d="M141 880Q510 825 883 880" fill="none" stroke="#A0EBD1" opacity=".24" stroke-width="3"/>
+ <g filter="url(#shadow)">
+  <path d="M262 290H580Q615 290 615 325V785Q615 817 580 817H262Q229 817 229 785V325Q229 290 262 290Z" fill="url(#color)" opacity=".49"/>
+  <path d="M294 233Q294 198 329 198H566L684 318V758Q684 796 646 796H329Q294 796 294 758Z" fill="url(#paper)"/>
+  <path d="M566 198V281Q566 318 603 318H684Z" fill="url(#fold)"/>
+  <path d="M320 237V753Q320 768 339 768H641" stroke="#FFF" stroke-opacity=".7" stroke-width="5" fill="none"/>
+  <path d="M365 382H534M365 441H585M365 571H570M365 627H530M365 683H495" stroke="#83A9B5" stroke-width="13" stroke-linecap="round"/>
+  <path d="M249 367V308Q249 282 275 282H332M652 282H709Q735 282 735 308V367M249 630V689Q249 715 275 715H332M735 630V689Q735 715 709 715H652" fill="none" stroke="url(#color)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M226 512H752" fill="none" stroke="#55B8B4" stroke-opacity=".23" stroke-width="51" stroke-linecap="round"/>
+  <path d="M226 512H752" fill="none" stroke="#51AAA7" stroke-width="18" stroke-linecap="round"/>
+  <path d="M228 509H750" fill="none" stroke="url(#color)" stroke-width="8" stroke-linecap="round"/>
+  <path d="m709 570 76 44v88l-76 44-76-44v-88Z" fill="url(#metal)"/>
+  <path d="m709 570 76 44-76 44-76-44Z" fill="url(#color)" opacity=".64"/>
+  <path d="m709 658 76-44v88l-76 44Z" fill="#183B49" opacity=".31"/>
+  <circle cx="709" cy="656" r="52" fill="#173549" stroke="#CEF5EC" stroke-width="6"/>
+  <circle cx="709" cy="656" r="35" fill="url(#color)"/>
+  <circle cx="709" cy="656" r="20" fill="#34687E"/>
+  <circle cx="698" cy="644" r="8" fill="#F3FFFD"/>
+ </g><rect x="17" y="17" width="990" height="990" rx="218" fill="none" stroke="#A0EBD1" opacity=".24" stroke-width="3"/>
+ <circle cx="847" cy="842" r="8" fill="#A0EBD1"/><circle cx="875" cy="842" r="4" fill="#88B9EE" opacity=".7"/></g></svg>
