@@ -56,3 +56,5 @@ Cada tarjeta de la familia Auralis tiene una escena propia: biblioteca de aplica
 
 
 Auralis BETA reúne ocho herramientas independientes: Scribe, Orbit, Nova, Folio, Canvas, Atlas, Nexus y Lore. Sus tarjetas y la global enlazan por imagen y botón a sus propias páginas; los iconos mantienen una identidad común original.
+
+Auralis Iris aparece en **Documentos en beta** como escáner independiente de la familia Auralis. Su tarjeta abre la aplicación en GitHub Pages.

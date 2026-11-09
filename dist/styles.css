@@ -288,6 +288,9 @@ h2 span { color: #bdc8d8; font-weight: 400; }
 .prisma-family[data-project="slides"] { --accent: #c9a9f4; --accent-rgb: 201,169,244; }
 .prisma-family[data-project="data"] { --accent: #f1a4c4; --accent-rgb: 241,164,196; }
 .prisma-family[data-project="publisher"] { --accent: #a0dde6; --accent-rgb: 160,221,230; }
+.prisma-family[data-project="iris"] { --accent: #a5e4c9; --accent-rgb: 165,228,201; }
+.iris-stage { display: grid; place-items: center; }
+.iris-stage img { filter: drop-shadow(0 14px 22px #081d18aa); }
 .prisma-family h2 span { color: var(--accent); }
 .prisma-family-scene { background: radial-gradient(ellipse at 50% 50%, rgba(var(--accent-rgb), .15), transparent 75%), #151a26; }
 .prisma-family-scene::before { position: absolute; inset: 0; content: ""; background-image: linear-gradient(#ffffff04 1px,transparent 1px),linear-gradient(90deg,#ffffff04 1px,transparent 1px); background-size: 32px 32px; mask-image: radial-gradient(ellipse,black,transparent 75%); }
