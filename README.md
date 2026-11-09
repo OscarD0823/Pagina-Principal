@@ -50,7 +50,7 @@ El worker tiene el alcance relativo de esta página (en GitHub Pages, `/Pagina-P
 
 Referencias de instalación: [guía de Chrome/web.dev](https://web.dev/articles/customize-install) y [guía de Safari de Apple](https://support.apple.com/es-co/guide/iphone/iphea86e5236/ios).
 
-Auralis Canvas y Auralis Folio aparecen en la colección y en el filtro Documentos. El enlace **Documentos en beta** abre la vista de Auralis, Scribe, Orbit, Nova, Nexus, Lore y Atlas. Cada herramienta conserva su enlace directo.
+Auralis Atlas y Auralis Folio aparecen en la colección y en el filtro Documentos. El enlace **Documentos en beta** abre la vista de Auralis, Scribe, Orbit, Nova, Nexus, Lore y Canvas. Cada herramienta conserva su enlace directo.
 
 Cada tarjeta de la familia Auralis tiene una escena propia: biblioteca de aplicaciones, escritura, cálculos, diapositivas, relaciones entre tablas y maquetación editorial. La escena original de PDF se conserva como referencia visual. Estas ilustraciones no ejecutan los editores ni modifican documentos; funcionan sin dependencias nuevas y se pausan con los mismos controles del resto de la colección.
 
